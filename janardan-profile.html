@@ -1,308 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Janardan Revuru: Engineering Leader | AI adoption at Enterprise Scale | AI Research Scholar</title>
-<style>
-  :root{
-    --ink:#1a1f2b;
-    --muted:#5b6472;
-    --accent:#1f3a5f;       /* deep executive navy */
-    --rule:#d9dee6;
-    --soft:#f4f6f9;
-    --maxw:760px;
-  }
-  *{box-sizing:border-box;}
-  html,body{margin:0;padding:0;}
-  body{
-    font-family:"Segoe UI",Roboto,Helvetica,Arial,system-ui,sans-serif;
-    color:var(--ink);
-    background:#eef1f5;
-    font-size:10.5pt;
-    line-height:1.5;
-    -webkit-font-smoothing:antialiased;
-  }
-  .sheet{
-    max-width:var(--maxw);
-    margin:18px auto;
-    background:#fff;
-    padding:18mm 16mm;
-    box-shadow:0 2px 14px rgba(20,30,50,.12);
-  }
-
-  /* Header */
-  header{border-bottom:2px solid var(--accent);padding-bottom:10px;margin-bottom:14px;}
-  h1{font-size:23pt;letter-spacing:.3px;margin:0 0 2px;color:var(--ink);font-weight:700;}
-  .title-line{font-size:11.5pt;color:var(--accent);font-weight:600;margin:0 0 8px;}
-  .target-tag{
-    display:inline-block;font-size:10pt;font-weight:700;color:#fff;
-    background:var(--accent);padding:3px 10px;border-radius:3px;margin:0 0 9px;
-  }
-  .contact{font-size:9pt;color:var(--muted);display:flex;flex-direction:column;gap:2px;}
-  .contact .row{display:flex;justify-content:space-between;align-items:baseline;gap:14px;}
-  .contact span{white-space:nowrap;}
-
-  /* Section headings: match TXT casing, no trailing period, hairline rule */
-  h2{
-    font-size:11.5pt;letter-spacing:.4px;
-    color:var(--accent);margin:16px 0 7px;padding-bottom:3px;
-    border-bottom:1px solid var(--rule);font-weight:700;
-  }
-  h2:first-of-type{margin-top:8px;}
-
-  p{margin:0 0 8px;}
-  ul{margin:4px 0 8px;padding-left:16px;}
-  li{margin:2px 0;}
-
-  .summary{text-align:justify;}
-
-  /* Group labels inside a section ("## " in TXT) */
-  .group-block{margin:0 0 7px;page-break-inside:avoid;}
-  .group{
-    font-size:10.2pt;font-weight:700;color:var(--ink);
-    margin:9px 0 3px;letter-spacing:.2px;
-  }
-  .group-block .group:first-child{margin-top:4px;}
-  .group-block ul{margin-top:3px;}
-
-  /* Career timeline: one row per company-role inside Professional Summary */
-  .timeline{margin:0 0 4px;}
-  .tl-row{display:flex;align-items:baseline;gap:7px;padding:2px 0;font-size:10pt;}
-  .tl-co{font-weight:700;white-space:nowrap;}
-  .tl-role{color:var(--muted);}
-  .tl-role::before{content:"\2014  ";color:var(--muted);}
-  .tl-dates{margin-left:auto;color:var(--muted);font-size:9.2pt;white-space:nowrap;}
-
-  .skills{display:flex;flex-wrap:wrap;gap:6px;}
-  .skills span{
-    background:var(--soft);border:1px solid var(--rule);border-radius:3px;
-    padding:2px 8px;font-size:9pt;color:var(--ink);
-  }
-
-  .edu-item{margin:6px 0;}
-  .edu-item .deg{font-weight:700;}
-  .edu-item .sub{color:var(--muted);font-size:9.2pt;}
-
-  /* Education 2x2 borderless grid */
-  .edu-grid{
-    width:100%;border-collapse:collapse;margin:4px 0 8px;
-  }
-  .edu-grid td{
-    width:50%;vertical-align:top;padding:8px 12px 8px 0;
-  }
-  .edu-grid td + td{padding-left:12px;}
-  .edu-grid .deg{font-weight:700;font-size:10pt;}
-  .edu-grid .sub{color:var(--muted);font-size:9.2pt;margin-top:1px;}
-
-  a{color:var(--accent);text-decoration:none;}
-
-  /* Footer teaser: visually distinct (HTML-only add-on) */
-  .teaser{
-    margin-top:16px;padding-top:12px;border-top:2px solid var(--accent);
-    font-size:9.8pt;line-height:1.55;color:var(--ink);text-align:justify;
-  }
-
-  /* Mobile: keep content inside the sheet */
-  @media (max-width:640px){
-    .sheet{padding:28px 20px;}
-    h1{font-size:19pt;}
-    .contact .row{flex-wrap:wrap;justify-content:flex-start;gap:2px 16px;}
-    .contact span{white-space:normal;}
-    .tl-row{flex-wrap:wrap;}
-    .tl-co{white-space:normal;}
-    .tl-dates{margin-left:0;white-space:normal;}
-    .edu-grid td{display:block;width:auto;padding:6px 0;}
-    .edu-grid td + td{padding-left:0;}
-  }
-
-  /* Print: A4, no shadows, tight margins */
-  @page{ size:A4; margin:14mm 14mm; }
-  @media print{
-    body{background:#fff;font-size:10pt;}
-    .sheet{margin:0;box-shadow:none;max-width:none;padding:0;}
-    h2{page-break-after:avoid;}
-    a{color:var(--ink);}
-  }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Janardan Revuru, engineering leader in enterprise infrastructure, storage, data protection, and AI engineering transformation.">
+  <title>Janardan Revuru | Engineering Leader | Enterprise Infrastructure, Storage and AI</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172234;
+      --muted: #4d5a6b;
+      --accent: #183b63;
+      --rule: #cbd4df;
+      --paper: #fff;
+      --canvas: #eef2f6;
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--canvas); }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--canvas);
+      font: 11pt/1.48 Arial, Helvetica, sans-serif;
+    }
+    main {
+      width: min(900px, 100% - 32px);
+      margin: 24px auto;
+      padding: 42px 54px;
+      background: var(--paper);
+    }
+    h1 { margin: 0 0 5px; font-size: 27pt; line-height: 1.12; }
+    .headline { margin: 0 0 12px; color: var(--accent); font-size: 13pt; font-weight: 700; }
+    .contact { margin: 0; font-size: 10.5pt; line-height: 1.65; overflow-wrap: anywhere; }
+    .contact a { color: inherit; text-decoration: none; }
+    section { margin-top: 22px; }
+    h2 {
+      margin: 0 0 9px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid var(--rule);
+      color: var(--accent);
+      font-size: 13pt;
+      line-height: 1.25;
+    }
+    h3 { margin: 13px 0 2px; font-size: 11pt; line-height: 1.35; }
+    p { margin: 0 0 7px; }
+    ul { margin: 5px 0 10px; padding-left: 21px; }
+    li { margin: 3px 0; padding-left: 1px; }
+    .role-meta { margin: 0 0 4px; color: var(--muted); font-size: 10pt; }
+    .skills p { margin: 0 0 5px; }
+    .url { overflow-wrap: anywhere; }
+    a { color: var(--accent); }
+    @media (max-width: 640px) {
+      main { width: 100%; margin: 0; padding: 28px 22px; }
+    }
+    @page { size: A4; margin: 12mm; }
+    @media print {
+      html, body { width: auto; background: #fff; }
+      body { color: #111; font-size: 10pt; line-height: 1.38; }
+      main { width: auto; max-width: none; margin: 0; padding: 0; }
+      h1 { font-size: 23pt; }
+      .headline { font-size: 11.5pt; }
+      .contact { font-size: 9.5pt; }
+      section { margin-top: 14px; }
+      h2 { margin-bottom: 6px; font-size: 12pt; break-after: avoid; page-break-after: avoid; }
+      section { break-inside: avoid; page-break-inside: avoid; }
+      h3 { margin-top: 9px; font-size: 10pt; break-after: avoid; page-break-after: avoid; }
+      p, li { orphans: 3; widows: 3; }
+      ul { margin: 3px 0 7px; }
+      li { margin: 2px 0; }
+      a { color: #111; text-decoration: none; }
+      .skills { margin-top: 14px; }
+      .skills p { margin-bottom: 3px; }
+    }
+  </style>
 </head>
 <body>
-<div class="sheet">
+<main>
+  <h1>Janardan Revuru</h1>
+  <p class="headline">Engineering Leader | Enterprise Infrastructure, Storage, Data Protection and AI Transformation</p>
+  <p class="contact">
+    Bengaluru, India 560100<br>
+    Phone: <a href="tel:+918050780608">+91 8050780608</a><br>
+    Email: <a href="mailto:janardan.revuru@gmail.com">janardan.revuru@gmail.com</a><br>
+    LinkedIn: <a class="url" href="https://linkedin.com/in/rjanardan">https://linkedin.com/in/rjanardan</a><br>
+    Portfolio: <a class="url" href="https://janalogy.com">https://janalogy.com</a><br>
+    Research: <a class="url" href="https://knowledgesidekick.org">https://knowledgesidekick.org</a>
+  </p>
 
-  <header>
-    <h1>Janardan Revuru</h1>
-    <div class="title-line">Engineering Leader · Enterprise Infrastructure and Storage · Teams Built 2 to 100 · AI Engineering Transformation</div>
-    <div class="contact">
-      <div class="row">
-        <span>Bengaluru, India 560100</span>
-        <span>+91 8050780608</span>
-        <span>janardan.revuru@gmail.com</span>
-      </div>
-      <div class="row">
-        <span>LinkedIn: <a href="https://linkedin.com/in/rjanardan">linkedin.com/in/rjanardan</a></span>
-        <span>Portfolio: <a href="https://janalogy.com">https://janalogy.com</a></span>
-        <span>Research: <a href="https://knowledgesidekick.org">knowledgesidekick.org</a></span>
-      </div>
-    </div>
-  </header>
+  <section>
+    <h2>Professional Summary</h2>
+    <p>Enterprise engineering leader with deep experience in storage, data protection, and infrastructure management. Led engineering for management and supportability software across enterprise data-protection appliances and distributed storage systems, including file, block, and object storage, storage tiers, backup and recovery, security, REST APIs, graphical user interfaces, microservices, and observability. Delivered appliance supportability for PowerProtect DD and system management for a distributed Kubernetes-based data-protection product. Built engineering teams from 2 to 100 and achieved top-decile engagement for five consecutive years. More recently, led AI engineering transformation across a multi-geography business unit of about 600 engineers.</p>
+  </section>
 
-  <h2>Professional Summary and Experience</h2>
-  <div class="target-tag">Seeking: Engineering leadership roles at AI-first startups and AI platform companies serving enterprises</div>
+  <section class="skills">
+    <h2>Core Skills</h2>
+    <p><strong>Enterprise storage and data protection:</strong> File, block, and object storage; NAS; SAN; software-defined storage; storage tiers; backup and recovery; distributed storage; appliance supportability and serviceability; SMI-S.</p>
+    <p><strong>Infrastructure management:</strong> Server and storage management; REST APIs; graphical user interfaces; microservices; security; telemetry; observability; customer supportability.</p>
+    <p><strong>Engineering leadership:</strong> Engineering organization design and growth; global teams; manager and technical-lead development; hiring; coaching; product engineering; cross-functional delivery.</p>
+    <p><strong>AI and machine learning:</strong> Agentic AI workflows; spec-driven development; Python; PyTorch; TensorFlow; Hugging Face; LangGraph; model evaluation; knowledge grounding.</p>
+    <p><strong>Software and cloud technologies:</strong> HTML; CSS; JavaScript; Angular; TypeScript; Node.js; Google Cloud; Vertex AI; PostgreSQL; pgvector; SQLAlchemy; Alembic.</p>
+    <p><strong>Research areas, PhD in progress:</strong> Multi-agent communication architectures; knowledge representation; semantic systems; symbolic reasoning.</p>
+  </section>
 
-  <div class="group-block">
-    <div class="group">Agentic AI and AI-native delivery</div>
+  <section>
+    <h2>Professional Experience</h2>
+
+    <h3>Director of Engineering, Dell Technologies</h3>
+    <p class="role-meta">August 2021 to Present | Bengaluru, India</p>
     <ul>
-      <li>Prototyping and building agentic AI systems: multi-agent coordination, tool use, and agent-to-agent communication architectures (<a href="https://knowledgesidekick.org/phd/submission-1.html" target="_blank" rel="noopener">PhD research proposal</a>, REVA University)</li>
-      <li>Leading adoption of agentic AI: moved about 600 engineers from AI-assisted coding to agentic-AI workflows using spec-driven development and an AI harness; 3x productivity, +30% engagement (Dell Technologies)</li>
-      <li>Worked with IT to fine-tune IDE and on-prem code models to a million-line codebase and evaluated per-team code-generation effectiveness (Dell Technologies)</li>
-      <li>Built on the org's AI harness and LLM architecture documentation to create knowledge bundles for grounded, non-hallucinating answers (Dell Technologies)</li>
+      <li>Led adoption of agentic AI workflows using spec-driven development and an AI harness across a multi-geography business unit of about 600 engineers; reported outcomes included 3x productivity and 30% higher engagement.</li>
+      <li>Worked with IT to fine-tune IDE and on-premises code models to a million-line codebase and evaluated code-generation effectiveness by team.</li>
+      <li>Was responsible for system management of a distributed Kubernetes-based data-protection product. Used AI to bring GUI delivery forward by six months, enabling early customer demonstrations and timely product decisions.</li>
+      <li>Led the engineering side of UX and UI for four version-1 enterprise products across HPE and Dell, simplifying product complexity, aligning a portfolio design system, and supporting API-first compliance through OpenAPI and Redfish.</li>
+      <li>Led Dell's Agile transformation three times, alongside engineering delivery and as an additional responsibility. Received the Senior Vice President's Game Changer Award for this transformation work.</li>
     </ul>
-  </div>
 
-  <div class="group-block">
-    <div class="group">Engineering leadership and org building</div>
+    <h3>Senior Manager, Software Engineering, Dell EMC</h3>
+    <p class="role-meta">December 2016 to July 2021 | Bengaluru, India</p>
     <ul>
-      <li>Built engineering teams from the ground up, 2 to 100 engineers, with global reporting and one-team culture across geographies (Dell Technologies, Dell EMC)</li>
-      <li>Manage managers, senior tech leads, and architects; hire and coach niche hardware, file-system, and security talent (Dell Technologies)</li>
-      <li>Graduated from the LEAD program, top 2% of Dell Technologies leaders (Dell Technologies)</li>
-      <li>Top-decile team engagement scores for 5 consecutive years (Dell Technologies)</li>
+      <li>Led engineering for management and supportability software across enterprise data-protection appliances and distributed storage systems.</li>
+      <li>Delivered appliance supportability and serviceability for the PowerProtect DD backup and recovery appliance.</li>
+      <li>Built an engineering team from 2 to 100 and modernized the web technology stack from Google Web Toolkit to Angular in the Data Protection domain.</li>
     </ul>
-  </div>
 
-  <div class="group-block">
-    <div class="group">Enterprise product engineering and Customer Experience</div>
+    <h3>Engineering Manager, Hewlett Packard Enterprise</h3>
+    <p class="role-meta">March 2011 to December 2016 | Bengaluru, India</p>
     <ul>
-      <li>Led engineering for management and supportability software across enterprise data-protection appliances and distributed storage systems, covering file, block, and object storage, storage tiers, backup and recovery, appliance serviceability, security, REST APIs, GUI, microservices, and observability (Dell Technologies)</li>
-      <li>At Dell, responsible for system management of a distributed Kubernetes-based data protection product; used AI to pull GUI delivery in by 6 months, enabling early customer demos and timely product decisions (Dell Technologies)</li>
-      <li>Led the engineering side of UX/UI for four version-1 enterprise products across HPE and Dell: simplifying underlying complexity, one design system across the portfolio, and API-first compliance (OpenAPI, Redfish); co-inventor on 3 granted UX patents (HPE, Dell Technologies)</li>
-      <li>Modernized the web technology stack from GWT to Angular in the Data Protection domain (Dell Technologies)</li>
-      <li>Delivered appliance supportability and serviceability for the PowerProtectDD backup and recovery appliance (Dell EMC)</li>
-      <li>Customer experience and sustenance for EMEA region for a secure-router product (Nortel/Avaya)</li>
-      <li>Early career: network management software, GSM 2.5G features (location update, lawful interception), and router element-manager software (Wipro, Amber Networks, Siemens, Tasman Networks, Motorola)</li>
+      <li>Managed engineering for server and clustering products.</li>
+      <li>Contributed to enterprise product engineering and portfolio-wide user experience and interface work, including design-system consistency and API-first practices.</li>
     </ul>
-  </div>
 
-  <div class="group-block">
-    <div class="group">Agile transformation and delivery discipline</div>
+    <h3>Customer Experience and Sustenance, Nortel (acquired by Avaya)</h3>
+    <p class="role-meta">November 2007 to February 2011 | Bengaluru, India</p>
     <ul>
-      <li>Led Dell's Agile transformation three times: waterfall to Agile Scrum (VersionOne, SAFe), then Scaled Scrum with Scrum@Scale, and then across the Infrastructure Solutions Group; wrote the tutorial decks, certified 100% of employees and leaders in Scrum, and ran portfolio-level executive Scrum events (Dell Technologies)</li>
-      <li>Recognized with the Senior Vice President's Game Changer award for the transformation work (Dell Technologies)</li>
-      <li>Leading transformations in delivery methodology and AI-native ways of working (Dell Technologies, HPE, Motorola)</li>
+      <li>Worked on customer experience and product sustenance for a secure-router product serving the EMEA region.</li>
     </ul>
-  </div>
 
-  <h2>Technical Capabilities</h2>
-  <div class="timeline">
-    <div class="tl-row"><span class="tl-co">Web technologies</span><span>— HTML/CSS/JS, Angular, TypeScript, Node.js</span></div>
-    <div class="tl-row"><span class="tl-co">Cloud</span><span>— Google Cloud, Vertex AI</span></div>
-    <div class="tl-row"><span class="tl-co">AI ML/DL</span><span>— Python, PyTorch, TensorFlow, Hugging Face</span></div>
-    <div class="tl-row"><span class="tl-co">Agentic AI frameworks</span><span>— LangGraph, Hermes Agent, Ollama, LiteLLM, DeepSeek API</span></div>
-    <div class="tl-row"><span class="tl-co">Storage and data protection</span><span>— File, block, and object storage; NAS, SAN, SDS; storage tiers; backup and recovery; distributed storage; appliance supportability; serviceability; SMI-S</span></div>
-    <div class="tl-row"><span class="tl-co">Enterprise infrastructure management</span><span>— Server and storage management; REST APIs; GUI; microservices; security; telemetry; observability; customer supportability</span></div>
-    <div class="tl-row"><span class="tl-co">Data and AI systems</span><span>— PostgreSQL + pgvector, SQLAlchemy, Alembic</span></div>
-    <div class="tl-row"><span class="tl-co">Agentic AI observability</span><span>— OpenTelemetry, Arize Phoenix</span></div>
-    <div class="tl-row"><span class="tl-co">Research areas</span><span>— PhD in progress</span></div>
-    <div class="tl-row"><span class="tl-co">Neuro-symbolic AI</span><span>— Typed schemas (Pydantic), symbolic reasoning and grounding (Prolog, Lisp)</span></div>
-    <div class="tl-row"><span class="tl-co">Knowledge representation and grounding</span><span>— Google Open Knowledge Format (OKF), RDF/OWL, SPARQL, JSON-LD, schema.org, Google Knowledge Graph</span></div>
-  </div>
+    <h3>Engineering Manager, Motorola</h3>
+    <p class="role-meta">August 2005 to November 2007 | Bengaluru, India</p>
+    <ul>
+      <li>Led engineering work in networking and telecom product development.</li>
+    </ul>
 
-  <h2>Career History</h2>
-  <div class="timeline">
-    <div class="tl-row"><span class="tl-co">Dell Technologies</span><span class="tl-role">Director of Engineering</span><span class="tl-dates">Aug 2021 – Present</span></div>
-    <div class="tl-row"><span class="tl-co">Dell Technologies</span><span class="tl-role">Senior Manager</span><span class="tl-dates">Dec 2016 – Jul 2021</span></div>
-    <div class="tl-row"><span class="tl-co">Hewlett Packard Enterprise</span><span class="tl-role">Engineering Manager</span><span class="tl-dates">Mar 2011 – Dec 2016</span></div>
-    <div class="tl-row"><span class="tl-co">Nortel (acquired by Avaya)</span><span class="tl-role">Customer Experience and Sustenance</span><span class="tl-dates">Nov 2007 – Feb 2011</span></div>
-    <div class="tl-row"><span class="tl-co">Motorola</span><span class="tl-role">Engineering Manager</span><span class="tl-dates">Aug 2005 – Nov 2007</span></div>
-    <div class="tl-row"><span class="tl-co">Tasman Networks (acquired by Nortel)</span><span class="tl-role">Technical Architect / Manager</span><span class="tl-dates">Nov 2003 – Aug 2005</span></div>
-    <div class="tl-row"><span class="tl-co">Siemens Technology India</span><span class="tl-role">Technical Leader</span><span class="tl-dates">2001 – 2003</span></div>
-    <div class="tl-row"><span class="tl-co">Amber Networks (acquired by Nokia)</span><span class="tl-role">Software Engineer</span><span class="tl-dates">Aug 2000 – Aug 2001</span></div>
-    <div class="tl-row"><span class="tl-co">Wipro</span><span class="tl-role">Software Engineer</span><span class="tl-dates">Nov 1996 – Feb 2000</span></div>
-  </div>
+    <h3>Technical Architect and Manager, Tasman Networks (acquired by Nortel)</h3>
+    <p class="role-meta">November 2003 to August 2005 | Bengaluru, India</p>
+    <ul>
+      <li>Worked on router element-management software and network management engineering.</li>
+    </ul>
 
-  <h2>Industry and Academic Engagement</h2>
-  <p class="summary">Developed multiple tech communities (meetups) that aggregate to 22K members across India and beyond. Conducted 100+ events over the last 11 years at companies including Google, Microsoft, Navi, Brillio, Dell, HPE, Nutanix, IBM, GeekyAnts, and Roku.</p>
-  <p class="summary">Academic and research mindset with an M.Tech in Data Science &amp; AI from BITS Pilani; currently pursuing a part-time PhD in AI (agent to agent communication architectures). Official mentor to employees pursuing M.Tech from BITS Pilani. Authoring the book "Mastering TypeScript" for BPB publications. Editor and maintainer of <a href="https://knowledgesidekick.org" target="_blank" rel="noopener">knowledgesidekick.org</a>, an open research site on knowledge-first practice for Agentic AI — agent-generated content under editorial rules I set, human-reviewed. My <a href="https://knowledgesidekick.org/phd/submission-1.html" target="_blank" rel="noopener">PhD research proposal</a> is published there.</p>
+    <h3>Technical Leader, Siemens Technology India</h3>
+    <p class="role-meta">2001 to 2003 | Bengaluru, India</p>
+    <ul>
+      <li>Worked on network management software and telecom engineering.</li>
+    </ul>
 
-  <h2>Skills</h2>
-  <div class="skills">
-    <span>Engineering leadership</span>
-    <span>Team seeding &amp; scaling</span>
-    <span>AI-native delivery</span>
-    <span>Enterprise infrastructure (server/storage/networking)</span>
-    <span>Scaled Agile &amp; architecture review</span>
-    <span>Community &amp; talent attraction</span>
-  </div>
+    <h3>Software Engineer, Amber Networks (acquired by Nokia)</h3>
+    <p class="role-meta">August 2000 to August 2001 | Bengaluru, India</p>
+    <ul>
+      <li>Contributed to network management and router element-management software.</li>
+    </ul>
 
-  <h2>Education</h2>
-  <table class="edu-grid">
-    <tr>
-      <td>
-        <div class="deg">Ph.D. Artificial Intelligence</div>
-        <div class="sub">REVA University Bengaluru, India</div>
-        <div class="sub">Expected in June 2028 (part-time, working professional)</div>
-        <div class="sub">Research in the field of Multi-agent systems knowledge and communication architectures</div>
-        <div class="sub">Research proposal: <a href="https://knowledgesidekick.org/phd/submission-1.html" target="_blank" rel="noopener">knowledgesidekick.org/phd/submission-1.html</a></div>
-      </td>
-      <td>
-        <div class="deg">M.Tech Data Science</div>
-        <div class="sub">Birla Institute of Technology and Science (BITS), Pilani, June 2024</div>
-        <div class="sub">Project: Sustainability through Small Generative Models</div>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <div class="deg">B.E. Computer Science</div>
-        <div class="sub">Vijayanagar Engineering College Karnataka</div>
-      </td>
-      <td>
-        <div class="deg">MBA Marketing</div>
-        <div class="sub">I.G.N.O.U Bengaluru, India</div>
-      </td>
-    </tr>
-  </table>
+    <h3>Software Engineer, Wipro</h3>
+    <p class="role-meta">November 1996 to February 2000 | Bengaluru, India</p>
+    <ul>
+      <li>Developed software for networking and telecom systems, including 2.5G GSM Location Update and Lawful Interception features.</li>
+    </ul>
+  </section>
 
-  <h2>Certifications and Awards</h2>
-  <ul>
-    <li>Project Management Professional (PMP)</li>
-    <li>Certified Scrum Master</li>
-    <li>SAFe Agilist</li>
-    <li>Six Sigma - Green Belt</li>
-    <li>Certified Financial Manager</li>
-    <li>Game Changer award for Agile Transformation</li>
-    <li>Top-decile team engagement scores for 5 consecutive years</li>
-  </ul>
+  <section>
+    <h2>Education</h2>
+    <h3>PhD in Artificial Intelligence, REVA University</h3>
+    <p>Part-time, expected June 2028. Research in multi-agent systems knowledge and communication architectures.</p>
+    <h3>Master of Technology in Data Science, Birla Institute of Technology and Science, Pilani</h3>
+    <p>June 2024. Project: Sustainability through Small Generative Models.</p>
+    <h3>Bachelor of Engineering in Computer Science, Vijayanagar Engineering College</h3>
+    <h3>Master of Business Administration in Marketing, Indira Gandhi National Open University</h3>
+    <p>June 2010.</p>
+  </section>
 
-  <h2>Community Engagement</h2>
-  <ul>
-    <li>Founder and organizer of Tech communities with total 22K members; hosted 100+ events</li>
-    <li>JavaScript Meetup (since 2015)</li>
-    <li>Data science, Artificial intelligence, Research and Learning (DARLing) Meetup (since 2025)</li>
-    <li>Byte of Python (since 2025)</li>
-  </ul>
+  <section>
+    <h2>Certifications and Awards</h2>
+    <ul>
+      <li>Project Management Professional (PMP)</li>
+      <li>Certified Scrum Master</li>
+      <li>SAFe Agilist</li>
+      <li>Six Sigma Green Belt</li>
+      <li>Certified Financial Manager</li>
+      <li>Senior Vice President's Game Changer Award for Agile Transformation</li>
+    </ul>
+  </section>
 
-  <h2>Affiliations and Advisory Roles</h2>
-  <ul>
-    <li>Academic Council - Madanapalle Institute of Technology &amp; Science (since 2025)</li>
-    <li>Board of Studies - Kishkindha University (since 2024)</li>
-    <li>Association of Computer Machinery (ACM) member (since 2024)</li>
-    <li>Community leader - Google (since 2020)</li>
-    <li>Open Source India conference (since 2011)</li>
-    <li>Technical Director - Huawei HarmonyOS Platform (till 2021)</li>
-    <li>Web Technologies Advisory Group - Microsoft (till 2018)</li>
-  </ul>
+  <section>
+    <h2>Patents</h2>
+    <ul>
+      <li>Systems and Methods for Temporary Access with Adaptive Trust Levels for Authentication and Authorization, US 20220337596, issued October 20, 2022.</li>
+      <li>Parameter-Based Adaptive Scheduling of Jobs, US 20240354154, issued October 24, 2024.</li>
+      <li>Systems and Methods for Temporary Access with Adaptive Trust Levels for Authentication and Authorization, Extension, US 20240244058, issued April 8, 2025.</li>
+      <li>Suggesting and Validating User Interface Elements in Accordance with a Design System, US 20260203081 A1, published July 16, 2026.</li>
+    </ul>
+  </section>
 
-  <h2>Patents (with co-inventors)</h2>
-  <ul>
-    <li>SYSTEMS AND METHODS FOR TEMPORARY ACCESS WITH ADAPTIVE TRUST LEVELS FOR AUTHENTICATION AND AUTHORIZATION; #20220337596; Issued: 20 Oct 2022</li>
-    <li>PARAMETER-BASED ADAPTIVE SCHEDULING OF JOBS; #20240354154; Issued: 24 Oct 2024</li>
-    <li>SYSTEMS AND METHODS FOR TEMPORARY ACCESS WITH ADAPTIVE TRUST LEVELS FOR AUTHENTICATION AND AUTHORIZATION (EXTN); #20240244058; 08 Apr 2025</li>
-    <li>SUGGESTING AND VALIDATING USER INTERFACE ELEMENTS IN ACCORDANCE WITH A DESIGN SYSTEM; US20260203081A1; Filed 16 Jul 2026</li>
-  </ul>
-
-  <footer class="teaser">
-    For more than 20 years I have built and scaled engineering teams from the ground up, growing an infrastructure management software org from 2 to 100 engineers and leading the shift to agentic-AI workflows across about 600, tripling productivity. Seeding teams that deliver and lead with AI-native engineering and a culture of experimentation. I bring that blend to both: an execution leader with a researcher's mindset, still hands-on in my PhD work on multi-agent systems.
-  </footer>
-
-</div>
+  <section>
+    <h2>Leadership and Community Engagement</h2>
+    <ul>
+      <li>Founded and organized technology communities with 22,000 members across India and more than 100 events hosted at companies including Google, Microsoft, Navi, Brillio, Dell, HPE, Nutanix, IBM, GeekyAnts, and Roku.</li>
+      <li>Mentors employees pursuing a Master of Technology at BITS Pilani.</li>
+      <li>Authoring <em>Mastering TypeScript</em> for BPB Publications.</li>
+      <li>Editor and maintainer of KnowledgeSidekick.org, an open research site on knowledge-first practice for agentic AI. Agent-generated content is human-reviewed under editorial rules.</li>
+    </ul>
+    <p>Research proposal: <a class="url" href="https://knowledgesidekick.org/phd/submission-1.html">https://knowledgesidekick.org/phd/submission-1.html</a></p>
+  </section>
+</main>
 </body>
 </html>
