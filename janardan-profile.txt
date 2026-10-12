@@ -17,7 +17,7 @@ Enterprise storage and data protection: File, block, and object storage; NAS; SA
 Infrastructure management: Server and storage management; REST APIs; graphical user interfaces; microservices; security; telemetry; observability; customer supportability.
 Engineering leadership: Engineering organization design and growth; global teams; manager and technical-lead development; hiring; coaching; product engineering; cross-functional delivery.
 AI and machine learning: Agentic AI workflows; spec-driven development; Python; PyTorch; TensorFlow; Hugging Face; LangGraph; model evaluation; knowledge grounding.
-Software and cloud technologies: HTML; CSS; JavaScript; Angular; TypeScript; Node.js; Google Cloud; Vertex AI; PostgreSQL; pgvector; SQLAlchemy; Alembic.
+Software and cloud technologies: HTML; CSS; JavaScript; Angular; TypeScript; Node.js; AWS; Azure; Google Cloud; Vertex AI; PostgreSQL; pgvector; SQLAlchemy; Alembic.
 Research areas, PhD in progress: Multi-agent communication architectures; knowledge representation; semantic systems; symbolic reasoning.
 
 PROFESSIONAL EXPERIENCE
@@ -31,6 +31,8 @@ Director of Engineering, Dell Technologies | August 2021 to Present | Bengaluru,
 Senior Manager, Software Engineering, Dell EMC | December 2016 to July 2021 | Bengaluru, India
 - Led engineering for management and supportability software across enterprise data-protection appliances and distributed storage systems.
 - Delivered appliance supportability and serviceability for the PowerProtect DD backup and recovery appliance.
+- Led engineering for the Data Domain Virtual Edition API based life cycle management in AWS, Azure, and Google Cloud.
+- Led engineering work in integration with CloudIQ, a Dell SaaS monitoring application for enterprise products, covering AI-driven intelligence, observability, and continuous upgrades.
 - Built an engineering team from 2 to 100 and modernized the web technology stack from Google Web Toolkit to Angular in the Data Protection domain.
 Engineering Manager, Hewlett Packard Enterprise | March 2011 to December 2016 | Bengaluru, India
 - Managed engineering for server and clustering products.
