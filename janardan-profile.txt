@@ -1,64 +1,81 @@
 Janardan Revuru
-Engineering Leader | Enterprise Infrastructure, Storage, Data Protection and AI Transformation
-Bengaluru, India 560100
-Phone: +91 8050780608
-Email: janardan.revuru@gmail.com
-LinkedIn: https://linkedin.com/in/rjanardan
-Portfolio: https://janalogy.com
-Research: https://knowledgesidekick.org
+Engineering Leader · Enterprise Infrastructure and Storage · Teams Built 2 to 100 · AI Engineering Transformation
+Bengaluru, India 560100 +91 8050780608 janardan.revuru@gmail.com
+LinkedIn: linkedin.com/in/rjanardan Portfolio: https://janalogy.com Research: knowledgesidekick.org
 
-PROFESSIONAL SUMMARY
+PROFESSIONAL SUMMARY AND EXPERIENCE
 
-Enterprise engineering leader with deep experience in storage, data protection, and infrastructure management. Led engineering for management and supportability software across enterprise data-protection appliances and distributed storage systems, including file, block, and object storage, storage tiers, backup and recovery, security, REST APIs, graphical user interfaces, microservices, and observability. Delivered appliance supportability for PowerProtect DD and system management for a distributed Kubernetes-based data-protection product. Built engineering teams from 2 to 100 and achieved top-decile engagement for five consecutive years. More recently, led AI engineering transformation across a multi-geography business unit of about 600 engineers.
+Seeking: Engineering leadership roles at AI-first startups and AI platform companies serving enterprises
+Agentic AI and AI-native delivery
+- Prototyping and building agentic AI systems: multi-agent coordination, tool use, and agent-to-agent communication architectures (PhD research proposal, REVA University)
+- Leading adoption of agentic AI: moved about 600 engineers from AI-assisted coding to agentic-AI workflows using spec-driven development and an AI harness; 3x productivity, +30% engagement (Dell Technologies)
+- Worked with IT to fine-tune IDE and on-prem code models to a million-line codebase and evaluated per-team code-generation effectiveness (Dell Technologies)
+- Built on the org's AI harness and LLM architecture documentation to create knowledge bundles for grounded, non-hallucinating answers (Dell Technologies)
+Engineering leadership and org building
+- Built engineering teams from the ground up, 2 to 100 engineers, with global reporting and one-team culture across geographies (Dell Technologies, Dell EMC)
+- Manage managers, senior tech leads, and architects; hire and coach niche hardware, file-system, and security talent (Dell Technologies)
+- Graduated from the LEAD program, top 2% of Dell Technologies leaders (Dell Technologies)
+- Top-decile team engagement scores for 5 consecutive years (Dell Technologies)
+Enterprise product engineering and customer experience
+- Led engineering for management and supportability software across enterprise data-protection appliances and distributed storage systems, covering file, block, and object storage, storage tiers, backup and recovery, appliance serviceability, security, REST APIs, GUI, microservices, and observability (Dell Technologies)
+- At Dell, responsible for system management of a distributed Kubernetes-based data-protection product; used AI to bring GUI delivery in by 6 months, enabling early customer demos and timely product decisions (Dell Technologies)
+- Led the engineering side of UX/UI for four version-1 enterprise products across HPE and Dell: simplifying underlying complexity, one design system across the portfolio, and API-first compliance (OpenAPI, Redfish); co-inventor on 3 granted UX patents (HPE, Dell Technologies)
+- Led engineering for the Data Domain Virtual Edition API based life cycle management in AWS, Azure, and Google Cloud (Dell EMC)
+- Led engineering work in integration with CloudIQ, a Dell SaaS monitoring application for enterprise products, covering AI-driven intelligence, observability, and continuous upgrades (Dell EMC)
+- Modernized the web technology stack from GWT to Angular in the Data Protection domain (Dell Technologies)
+- Delivered appliance supportability and serviceability for the PowerProtect DD backup and recovery appliance (Dell EMC)
+- Customer experience and sustenance for the EMEA region for a secure-router product (Nortel/Avaya)
+- Early career: network management software, GSM 2.5G features (location update, lawful interception), and router element-manager software (Wipro, Amber Networks, Siemens, Tasman Networks, Motorola)
+Agile transformation and delivery discipline
+- Led Dell's Agile transformation three times: waterfall to Agile Scrum (VersionOne, SAFe), then Scaled Scrum with Scrum@Scale, and then across the Infrastructure Solutions Group; wrote the tutorial decks, certified 100% of employees and leaders in Scrum, and ran portfolio-level executive Scrum events (Dell Technologies)
+- Recognized with the Senior Vice President's Game Changer award for the transformation work (Dell Technologies)
+- Leading transformations in delivery methodology and AI-native ways of working (Dell Technologies, HPE, Motorola)
 
-CORE SKILLS
+TECHNICAL CAPABILITIES
 
-Enterprise storage and data protection: File, block, and object storage; NAS; SAN; software-defined storage; storage tiers; backup and recovery; distributed storage; appliance supportability and serviceability; SMI-S.
-Infrastructure management: Server and storage management; REST APIs; graphical user interfaces; microservices; security; telemetry; observability; customer supportability.
-Engineering leadership: Engineering organization design and growth; global teams; manager and technical-lead development; hiring; coaching; product engineering; cross-functional delivery.
-AI and machine learning: Agentic AI workflows; spec-driven development; Python; PyTorch; TensorFlow; Hugging Face; LangGraph; model evaluation; knowledge grounding.
-Software and cloud technologies: HTML; CSS; JavaScript; Angular; TypeScript; Node.js; AWS; Azure; Google Cloud; Vertex AI; PostgreSQL; pgvector; SQLAlchemy; Alembic.
-Research areas, PhD in progress: Multi-agent communication architectures; knowledge representation; semantic systems; symbolic reasoning.
+Web technologies — HTML/CSS/JS, Angular, TypeScript, Node.js
+Cloud — Google Cloud, Vertex AI, AWS, Azure
+AI ML/DL — Python, PyTorch, TensorFlow, Hugging Face
+Agentic AI frameworks — LangGraph, Hermes Agent, Ollama, LiteLLM, DeepSeek API
+Storage and data protection — File, block, and object storage; NAS, SAN, SDS; storage tiers; backup and recovery; distributed storage; appliance supportability; serviceability; SMI-S
+Enterprise infrastructure management — Server and storage management; REST APIs; GUI; microservices; security; telemetry; observability; customer supportability
+Data and AI systems — PostgreSQL + pgvector, SQLAlchemy, Alembic
+Agentic AI observability — OpenTelemetry, Arize Phoenix
+Research areas — PhD in progress
+Neuro-symbolic AI — Typed schemas (Pydantic), symbolic reasoning and grounding (Prolog, Lisp)
+Knowledge representation and grounding — Google Open Knowledge Format (OKF), RDF/OWL, SPARQL, JSON-LD, schema.org, Google Knowledge Graph
 
-PROFESSIONAL EXPERIENCE
+CAREER HISTORY
 
-Director of Engineering, Dell Technologies | August 2021 to Present | Bengaluru, India
-- Led adoption of agentic AI workflows using spec-driven development and an AI harness across a multi-geography business unit of about 600 engineers; reported outcomes included 3x productivity and 30% higher engagement.
-- Worked with IT to fine-tune IDE and on-premises code models to a million-line codebase and evaluated code-generation effectiveness by team.
-- Was responsible for system management of a distributed Kubernetes-based data-protection product. Used AI to bring GUI delivery forward by six months, enabling early customer demonstrations and timely product decisions.
-- Led the engineering side of UX and UI for four version-1 enterprise products across HPE and Dell, simplifying product complexity, aligning a portfolio design system, and supporting API-first compliance through OpenAPI and Redfish.
-- Led Dell's Agile transformation three times, alongside engineering delivery and as an additional responsibility. Received the Senior Vice President's Game Changer Award for this transformation work.
-Senior Manager, Software Engineering, Dell EMC | December 2016 to July 2021 | Bengaluru, India
-- Led engineering for management and supportability software across enterprise data-protection appliances and distributed storage systems.
-- Delivered appliance supportability and serviceability for the PowerProtect DD backup and recovery appliance.
-- Led engineering for the Data Domain Virtual Edition API based life cycle management in AWS, Azure, and Google Cloud.
-- Led engineering work in integration with CloudIQ, a Dell SaaS monitoring application for enterprise products, covering AI-driven intelligence, observability, and continuous upgrades.
-- Built an engineering team from 2 to 100 and modernized the web technology stack from Google Web Toolkit to Angular in the Data Protection domain.
-Engineering Manager, Hewlett Packard Enterprise | March 2011 to December 2016 | Bengaluru, India
-- Managed engineering for server and clustering products.
-- Contributed to enterprise product engineering and portfolio-wide user experience and interface work, including design-system consistency and API-first practices.
-Customer Experience and Sustenance, Nortel (acquired by Avaya) | November 2007 to February 2011 | Bengaluru, India
-- Worked on customer experience and product sustenance for a secure-router product serving the EMEA region.
-Engineering Manager, Motorola | August 2005 to November 2007 | Bengaluru, India
-- Led engineering work in networking and telecom product development.
-Technical Architect and Manager, Tasman Networks (acquired by Nortel) | November 2003 to August 2005 | Bengaluru, India
-- Worked on router element-management software and network management engineering.
-Technical Leader, Siemens Technology India | 2001 to 2003 | Bengaluru, India
-- Worked on network management software and telecom engineering.
-Software Engineer, Amber Networks (acquired by Nokia) | August 2000 to August 2001 | Bengaluru, India
-- Contributed to network management and router element-management software.
-Software Engineer, Wipro | November 1996 to February 2000 | Bengaluru, India
-- Developed software for networking and telecom systems, including 2.5G GSM Location Update and Lawful Interception features.
+Dell Technologies — Director of Engineering Aug 2021 – Present
+Dell Technologies — Senior Manager Dec 2016 – Jul 2021
+Hewlett Packard Enterprise — Engineering Manager Mar 2011 – Dec 2016
+Nortel (acquired by Avaya) — Customer Experience and Sustenance Nov 2007 – Feb 2011
+Motorola — Engineering Manager Aug 2005 – Nov 2007
+Tasman Networks (acquired by Nortel) — Technical Architect / Manager Nov 2003 – Aug 2005
+Siemens Technology India — Technical Leader 2001 – 2003
+Amber Networks (acquired by Nokia) — Software Engineer Aug 2000 – Aug 2001
+Wipro — Software Engineer Nov 1996 – Feb 2000
+
+INDUSTRY AND ACADEMIC ENGAGEMENT
+
+Developed multiple tech communities (meetups) that aggregate to 22K members across India and beyond. Conducted 100+ events over the last 11 years at companies including Google, Microsoft, Navi, Brillio, Dell, HPE, Nutanix, IBM, GeekyAnts, and Roku.
+Academic and research mindset with an M.Tech in Data Science and AI from BITS Pilani; currently pursuing a part-time PhD in AI (agent to agent communication architectures). Official mentor to employees pursuing M.Tech from BITS Pilani. Authoring the book "Mastering TypeScript" for BPB publications. Editor and maintainer of knowledgesidekick.org, an open research site on knowledge-first practice for Agentic AI, with agent-generated content human-reviewed under editorial rules I set. My PhD research proposal is published there.
+
+SKILLS
+
+Engineering leadership: Team seeding and scaling; AI-native delivery
+Enterprise infrastructure: Server, storage, and networking; scaled Agile and architecture review; community and talent attraction
 
 EDUCATION
 
 PhD in Artificial Intelligence, REVA University
-Part-time, expected June 2028. Research in multi-agent systems knowledge and communication architectures.
+Expected in June 2028 (part-time, working professional). Research in the field of multi-agent systems knowledge and communication architectures.
+Research proposal: knowledgesidekick.org/phd/submission-1.html
 Master of Technology in Data Science, Birla Institute of Technology and Science, Pilani
 June 2024. Project: Sustainability through Small Generative Models.
 Bachelor of Engineering in Computer Science, Vijayanagar Engineering College
 Master of Business Administration in Marketing, Indira Gandhi National Open University
-June 2010.
 
 CERTIFICATIONS AND AWARDS
 
@@ -67,19 +84,31 @@ CERTIFICATIONS AND AWARDS
 - SAFe Agilist
 - Six Sigma Green Belt
 - Certified Financial Manager
-- Senior Vice President's Game Changer Award for Agile Transformation
+- Game Changer award for Agile Transformation
+- Top-decile team engagement scores for 5 consecutive years
 
-PATENTS
+COMMUNITY ENGAGEMENT
 
+- Founder and organizer of tech communities with total 22K members; hosted 100+ events
+- JavaScript Meetup (since 2015)
+- Data science, Artificial intelligence, Research and Learning (DARLing) Meetup (since 2025)
+- Byte of Python (since 2025)
+
+AFFILIATIONS AND ADVISORY ROLES
+
+- Academic Council, Madanapalle Institute of Technology and Science (since 2025)
+- Board of Studies, Kishkindha University (since 2024)
+- Association of Computer Machinery (ACM) member (since 2024)
+- Community leader, Google (since 2020)
+- Open Source India conference (since 2011)
+- Technical Director, Huawei HarmonyOS Platform (till 2021)
+- Web Technologies Advisory Group, Microsoft (till 2018)
+PATENTS (WITH CO-INVENTORS)
 - Systems and Methods for Temporary Access with Adaptive Trust Levels for Authentication and Authorization, US 20220337596, issued October 20, 2022.
 - Parameter-Based Adaptive Scheduling of Jobs, US 20240354154, issued October 24, 2024.
 - Systems and Methods for Temporary Access with Adaptive Trust Levels for Authentication and Authorization, Extension, US 20240244058, issued April 8, 2025.
 - Suggesting and Validating User Interface Elements in Accordance with a Design System, US 20260203081 A1, published July 16, 2026.
 
-LEADERSHIP AND COMMUNITY ENGAGEMENT
+CLOSING
 
-- Founded and organized technology communities with 22,000 members across India and more than 100 events hosted at companies including Google, Microsoft, Navi, Brillio, Dell, HPE, Nutanix, IBM, GeekyAnts, and Roku.
-- Mentors employees pursuing a Master of Technology at BITS Pilani.
-- Authoring Mastering TypeScript for BPB Publications.
-- Editor and maintainer of KnowledgeSidekick.org, an open research site on knowledge-first practice for agentic AI. Agent-generated content is human-reviewed under editorial rules.
-Research proposal: https://knowledgesidekick.org/phd/submission-1.html
+For more than 20 years I have built and scaled engineering teams from the ground up, growing an infrastructure management software org from 2 to 100 engineers and leading the shift to agentic-AI workflows across about 600, tripling productivity. Seeding teams that deliver and lead with AI-native engineering and a culture of experimentation. I bring that blend to both: an execution leader with a researcher's mindset, still hands-on in my PhD work on multi-agent systems.
