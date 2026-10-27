@@ -1,0 +1,76 @@
+Janardan Revuru
+AI Engineering Leader · Adoption at 600-Engineer Scale · Knowledge Bundles for Agentic AI
+Bengaluru, India
+Phone: +91 8050780608
+Email: janardan.revuru@gmail.com
+LinkedIn: linkedin.com/in/rjanardan
+Portfolio: https://janalogy.com
+Research: knowledgesidekick.org
+
+PROFESSIONAL SUMMARY
+
+Engineering director who led AI adoption across a 600-engineer business unit at Dell, from a first coding assistant to agentic workflows, for 3x productivity and 30 percent higher engagement. Instrumented the rollout, tracking installation, weekly and daily use, and defining and updating the metrics that stay relevant for an AI-assisted software development life cycle, and influenced adoption in teams with low confidence in AI use. Redefining those metrics for AI meant re-pointing an instrument I had helped build, because eight years of Scrum@Scale had already established the measurement system. Carried the rollout through three tooling switches in eighteen months, then defined the processes agentic delivery needs: definitions of ready and done, the ceremonies that earn their place, and velocity measured at pod, cluster and product level. Added the knowledge bundle layer above the AI harness and its extracted documentation: a quality assessment of knowledge that acts as a digital model of the product, giving new-joiner documentation, reverse traceability to code, scenario checks and grounded answers. Master of Technology in Data Science and Artificial Intelligence, 2024; PhD in artificial intelligence in progress.
+
+Open to: Head of AI Engineering, and Director or Vice President Engineering roles at AI-first startups, AI platform companies and global capability centers.
+
+CORE STRENGTHS
+
+- AI adoption at scale, with usage instrumentation and effectiveness analysis
+- Metrics for true productivity: defining, tailoring and adapting them as delivery changes
+- Process design that raises productivity and engagement: definitions of ready and done, velocity by pod, cluster and product
+- Knowledge bundles and knowledge quality assessment for agentic AI
+- Grounded answers, reverse traceability and scenario checking
+- Change management: moving teams with low confidence, office hours, tiger-team support
+- Continuous learning: a Master of Technology in 2024 while working, a PhD and book in progress, tooling built along the way
+- Zero-to-one team building and hiring
+
+EXPERIENCE
+
+Founder, Knowledge Sidekick | September 2026 to Present | Bengaluru, India
+
+Knowledge engineering for agentic AI: an open research site at knowledgesidekick.org, and a training and advisory practice at knowledgesidekick.com.
+- Built an agent-first knowledge site, then taught the method. Knowledge management research, standards and adoption for agentic AI, with agent-generated content human-reviewed under editorial rules I set; the PhD research proposal and the knowledge bundle approach are public, and advisory engagements apply them with companies adopting agentic AI.
+
+Director of Engineering, Dell Technologies | August 2021 to September 2026 | Bengaluru, India
+Previously: Senior Manager, Dell Technologies, December 2016 to July 2021
+
+Line responsibility: 5 leaders (senior managers, architects, product owners) and up to 60 engineers across 3 sites with global reporting. Built the India function to 100 through hiring. As the business unit's AI and Agile champion, led adoption across a 600-engineer, multi-geography business unit for about 7 years, 540 of them by influence rather than line authority, working with product management, design, support and engineering leaders.
+- Re-pointed eight years of Agile measurement at AI. Scrum@Scale had already defined roles, velocity, story pointing, refinement, a say and do ratio, and the breakdown from capability to epic to story to task, so the AI effort inherited a measurement system instead of inventing one.
+- Led AI adoption across about 600 engineers. Tracked installation to 100 percent and weekly and daily active use, defined and updated the metrics so they stayed relevant to an AI-assisted software development life cycle, and influenced adoption in teams that had low confidence in AI use, so each move was chosen on evidence rather than enthusiasm.
+- Carried the adoption through three tooling switches in eighteen months. GitHub Copilot first, then Codeium on-premise when cloud use was ruled out and the models proved weaker than public ones, then a reversal to Windsurf once frontier models were available and adoption peaked. A tiger team I formed ran support, education on indexing and fine-tuning, and escalation with Dell-wide leads.
+- Tracked where the constraint moved. Velocity rose from 8-point stories being the sprint ceiling to 8 and 13 point stories completing, and the bottleneck then shifted to automation, then quality assurance, then product ownership as requirements became the limit.
+- Defined the processes agentic delivery needs. Anticipated the challenges agentic workflows create, ran office hour sessions to move teams through them, and defined the new processes for teams the organisation resized into 2 to 3 engineer pods alongside agents: definitions of ready and done, which ceremonies earn their place, velocity at pod, cluster and product level, and the skill plan that turns component specialists into cross-functional pods.
+- Added the knowledge-quality layer above the AI harness. The harness and documentation extraction were another team's work; I led the layer above them: knowledge bundles that assess the quality of extracted knowledge and act as a digital model of the product, catching agentic failure in the knowledge rather than in production.
+- Turned the bundles into four uses. A wiki for new joiners, reverse traceability from bundle to extracted documentation to code, scenario checks such as how the system behaves when request volume doubles from 100 to 200, and causal analysis behind grounded answers that return no information when the evidence is absent.
+- Built the organization. Grew the India function from 2 to 100 through hiring, with global reporting and one-team culture; hired and coached user experience, control path and security talent; held top-decile engagement scores, with attrition of 2 percent against a 7 percent organization average.
+- Changed how the company delivers. Led Dell's Agile transformation three times: waterfall to Scrum, Scrum at Scale, then across the Infrastructure Solutions Group. Certified 100 percent of employees and leaders and ran portfolio-level executive Scrum events. Earned the Senior Vice President's Game Changer award. Velocity increased 2 to 5 times and say and do predictability improved from 50 to 85 percent.
+
+Engineering Manager, Hewlett Packard Enterprise | March 2011 to December 2016 | Bengaluru, India
+
+Managed three teams building management software for the HPE high-availability clustering product for business-critical applications, and coordinated a 25-engineer project team on clustering and disaster recovery for HP-UX. Supervised the architecture of a multi-cluster manager, which cut customers' operating cost by 20 percent, and gave technical oversight to the HP OneView Network module.
+
+Earlier Career | 1996 to 2011 | Bengaluru, India
+
+Wipro, Amber Networks, Siemens, Tasman Networks, Motorola, and Nortel and Avaya: network management software and GSM features, a version-1 router element manager at Tasman (9 months, including hiring a new Bangalore team), and EMEA customer support engineering for a rebranded access router.
+
+RESEARCH, PATENTS AND WRITING
+
+- Research. Multi-agent systems knowledge and agent-to-agent communication architectures, with the PhD research proposal published at knowledgesidekick.org.
+- Patents. Three granted: US 20220337596 and US 20240244058 on adaptive-trust authentication and authorization, and US 20240354154 on adaptive job scheduling. One published: US 20260203081 A1 on design-system-aware interface validation.
+- Writing. Authoring "Mastering TypeScript" for BPB Publications, and articles on agentic AI for Open Source For You.
+
+AI TECHNICAL STACK
+
+Coding assistants and agents | GitHub Copilot, Codeium on-premise, Windsurf, Claude Code, Hermes Agent, LangGraph
+Models and frameworks | Ollama, LiteLLM, DeepSeek API, Vertex AI, Hugging Face, PyTorch, TensorFlow, Python
+Knowledge and grounding | Google Open Knowledge Format, RDF/OWL, SPARQL, JSON-LD, schema.org, typed schemas in Pydantic, Prolog, Lisp
+Data and observability | PostgreSQL with pgvector, SQLAlchemy, Alembic, OpenTelemetry, Arize Phoenix
+Cloud and web | Google Cloud, AWS, Azure, TypeScript, Node.js, Angular
+
+EDUCATION, CREDENTIALS AND COMMUNITY
+
+- PhD in Artificial Intelligence, REVA University, part-time, expected June 2028
+- Master of Technology in Data Science and Artificial Intelligence, BITS Pilani, 2024, project on sustainability through small generative models
+- Bachelor of Engineering in Computer Science, Vijayanagar Engineering College; Master of Business Administration in Marketing, Indira Gandhi National Open University
+
+Project Management Professional, Certified Scrum Master, SAFe Agilist, Six Sigma Green Belt. Dell LEAD program, top 2 percent of leaders. Founder of technology communities with 22 thousand members and more than 100 events in 11 years. Academic Council, Madanapalle Institute of Technology and Science; Board of Studies, Kishkindha University.

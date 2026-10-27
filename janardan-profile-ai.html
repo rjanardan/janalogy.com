@@ -1,0 +1,210 @@
+<!doctype html>
+<!--
+  EDITING GUIDE
+  1. Style block is byte-identical to janardan-profile.html. Do not add classes or CSS; the only extra rule is the
+     labelled print-fit delta at the end of the head, which lets sections flow across the page break.
+  2. This page is the AI-centred variant: AI leads, data-centre depth supports. Keep bullets in the shape Action,
+     then Scale, then Business result.
+  3. Attribution that must not drift: Dell was already investing in AI; the AI harness and the documentation
+     extraction were another team's work, and this resume claims only the knowledge bundle layer above them.
+  4. Print: Chrome > Print > Destination "Save as PDF" > Paper A4 > Margins "Default". Target is exactly 2 pages.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Janardan Revuru, AI engineering leader. Led AI adoption across 600 engineers; built knowledge bundles that keep agentic AI grounded.">
+  <title>Janardan Revuru: AI Engineering Leader | AI Adoption and Knowledge Bundles</title>
+  <style>
+      :root {
+        color-scheme: light;
+        --ink: #172234;
+        --muted: #4d5a6b;
+        --accent: #183b63;
+        --rule: #cbd4df;
+        --paper: #fff;
+        --canvas: #eef2f6;
+      }
+      * { box-sizing: border-box; }
+      html { background: var(--canvas); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--canvas);
+        font: 11pt/1.5 Arial, Helvetica, sans-serif;
+      }
+      main {
+        width: min(900px, 100% - 32px);
+        margin: 24px auto;
+        padding: 42px 54px;
+        background: var(--paper);
+      }
+      h1 { margin: 0 0 5px; font-size: 25pt; line-height: 1.15; }
+      .headline { margin: 0 0 12px; color: var(--accent); font-size: 12.5pt; font-weight: 700; }
+      .contact { margin: 0; font-size: 10.5pt; line-height: 1.7; overflow-wrap: anywhere; }
+      .contact a { color: inherit; text-decoration: none; }
+      section { margin-top: 22px; }
+      h2 {
+        margin: 0 0 9px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid var(--rule);
+        color: var(--accent);
+        font-size: 13pt;
+        line-height: 1.25;
+      }
+      h3 { margin: 13px 0 3px; font-size: 11pt; line-height: 1.35; }
+      p { margin: 0 0 7px; }
+      ul { margin: 5px 0 10px; padding-left: 21px; }
+      li { margin: 4px 0; padding-left: 1px; }
+      .group { font-weight: 700; margin: 12px 0 3px; color: var(--ink); }
+      .url { overflow-wrap: anywhere; }
+      a { color: var(--accent); }
+      .tl-row { margin: 3px 0; }
+      .tl-co { font-weight: 700; }
+      @media (max-width: 640px) {
+        main { width: 100%; margin: 0; padding: 28px 22px; }
+      }
+      @page { size: A4; margin: 12mm; }
+      @media print {
+        html, body { width: auto; background: #fff; }
+        body { color: #111; font-size: 9.2pt; line-height: 1.32; }
+        main { width: auto; max-width: none; margin: 0; padding: 0; }
+        h1 { font-size: 20pt; }
+        .headline { font-size: 10.5pt; }
+        .contact { font-size: 9pt; }
+        section { margin-top: 10px; }
+        h2 { margin-bottom: 4px; font-size: 11pt; break-after: avoid; page-break-after: avoid; }
+        section { break-inside: avoid; page-break-inside: avoid; }
+        h3 { margin-top: 6px; font-size: 9.5pt; break-after: avoid; page-break-after: avoid; }
+        p, li { orphans: 3; widows: 3; }
+        ul { margin: 2px 0 5px; padding-left: 18px; }
+        li { margin: 1px 0; }
+        .group { margin: 7px 0 2px; }
+        .tl-row { margin: 1px 0; }
+        a { color: #111; text-decoration: none; }
+        .skills { margin-top: 10px; }
+        .skills p { margin-bottom: 2px; }
+      }
+    </style>
+  <style>
+    /* Print-fit delta for this page only. The borrowed style block keeps section{break-inside:avoid}, which pushes
+       whole sections to the next page and wastes a third of page one. Here sections flow; rows, list items and
+       headings stay intact. */
+    @media print {
+      body { font-size: 8.95pt; line-height: 1.27; }
+      section { margin-top: 8px; break-inside: auto; page-break-inside: auto; }
+      .tl-row, li { break-inside: avoid; page-break-inside: avoid; }
+      h3 { margin-top: 7px; break-after: avoid; page-break-after: avoid; }
+      p { margin-bottom: 4px; }
+      ul { margin: 2px 0 5px; }
+      li { margin: 1.5px 0; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Janardan Revuru</h1>
+  <p class="headline">AI Engineering Leader &middot; Adoption at 600-Engineer Scale &middot; Knowledge Bundles for Agentic AI</p>
+  <p class="contact">
+    Bengaluru, India &nbsp; +91 8050780608 &nbsp; janardan.revuru@gmail.com<br>
+    LinkedIn: linkedin.com/in/rjanardan &nbsp; Portfolio: https://janalogy.com &nbsp; Research: knowledgesidekick.org
+  </p>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>Engineering director who led AI adoption across a 600-engineer business unit at Dell, from a first coding assistant to agentic workflows, for 3x productivity and 30 percent higher engagement. Instrumented the rollout, tracking installation, weekly and daily use, and defining and updating the metrics that stay relevant for an AI-assisted software development life cycle, and influenced adoption in teams with low confidence in AI use. Redefining those metrics for AI meant re-pointing an instrument I had helped build, because eight years of Scrum@Scale had already established the measurement system. Carried the rollout through three tooling switches in eighteen months, then defined the processes agentic delivery needs: definitions of ready and done, the ceremonies that earn their place, and velocity measured at pod, cluster and product level. Added the knowledge bundle layer above the AI harness and its extracted documentation: a quality assessment of knowledge that acts as a digital model of the product, giving new-joiner documentation, reverse traceability to code, scenario checks and grounded answers. Master of Technology in Data Science and Artificial Intelligence, 2024; PhD in artificial intelligence in progress.</p>
+    <p><strong>Open to:</strong> Head of AI Engineering, and Director or Vice President Engineering roles at AI-first startups, AI platform companies and global capability centers.</p>
+  </section>
+
+  <section>
+    <h2>Selected Outcomes</h2>
+    <div class="tl-row"><span class="tl-co">600 engineers</span> &middot; AI adoption led inside a company already investing, installation to 100 percent, 3x productivity and 30 percent higher engagement</div>
+    <div class="tl-row"><span class="tl-co">8 and 13 point stories</span> &middot; velocity ceiling moved in 2 to 3 engineer pods working alongside agents</div>
+    <div class="tl-row"><span class="tl-co">4 downstream uses</span> &middot; knowledge bundles: new-joiner wiki, reverse traceability, scenario checks, grounded answers</div>
+    <div class="tl-row"><span class="tl-co">6 months earlier</span> &middot; graphical interface delivery pulled forward; previews with 5 customers reset Beta priorities</div>
+    <div class="tl-row"><span class="tl-co">2 to 100 engineers</span> &middot; India function built through hiring, 2 percent attrition against a 7 percent average</div>
+  </section>
+
+  <section>
+    <h2>Core Strengths</h2>
+    <ul>
+      <li>AI adoption at scale, with usage instrumentation and effectiveness analysis</li>
+      <li>Metrics for true productivity: defining, tailoring and adapting them as delivery changes</li>
+      <li>Process design that raises productivity and engagement: definitions of ready and done, velocity by pod, cluster and product</li>
+      <li>Knowledge bundles and knowledge quality assessment for agentic AI</li>
+      <li>Grounded answers, reverse traceability and scenario checking</li>
+      <li>Change management: moving teams with low confidence, office hours, tiger-team support</li>
+      <li>Continuous learning: a Master of Technology in 2024 while working, a PhD and book in progress, tooling built along the way</li>
+      <li>Zero-to-one team building and hiring</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <h3>Founder, Knowledge Sidekick, Sep 2026 to Present</h3>
+    <p><em>Knowledge engineering for agentic AI: an open research site at knowledgesidekick.org, and a training and advisory practice at knowledgesidekick.com.</em></p>
+    <ul>
+      <li><strong>Built an agent-first knowledge site, then taught the method.</strong> Knowledge management research, standards and adoption for agentic AI, with agent-generated content human-reviewed under editorial rules I set; the PhD research proposal and the knowledge bundle approach are public, and advisory engagements apply them with companies adopting agentic AI.</li>
+    </ul>
+
+    <h3>Director of Engineering, Dell Technologies, Aug 2021 to Sep 2026</h3>
+    <div class="tl-row"><span class="tl-co">Previously</span> &middot; Senior Manager, Dell Technologies, Dec 2016 to Jul 2021</div>
+    <p><em>Line responsibility: 5 leaders (senior managers, architects, product owners) and up to 60 engineers across 3 sites with global reporting. Built the India function to 100 through hiring. As the business unit's AI and Agile champion, led adoption across a 600-engineer, multi-geography business unit for about 7 years, 540 of them by influence rather than line authority, working with product management, design, support and engineering leaders.</em></p>
+    <div class="group">AI adoption and delivery redesign</div>
+    <ul>
+      <li><strong>Re-pointed eight years of Agile measurement at AI.</strong> Scrum@Scale had already defined roles, velocity, story pointing, refinement, a say and do ratio, and the breakdown from capability to epic to story to task, so the AI effort inherited a measurement system instead of inventing one.</li>
+      <li><strong>Led AI adoption across about 600 engineers.</strong> Tracked installation to 100 percent and weekly and daily active use, defined and updated the metrics so they stayed relevant to an AI-assisted software development life cycle, and influenced adoption in teams that had low confidence in AI use, so each move was chosen on evidence rather than enthusiasm.</li>
+      <li><strong>Carried the adoption through three tooling switches in eighteen months.</strong> GitHub Copilot first, then Codeium on-premise when cloud use was ruled out and the models proved weaker than public ones, then a reversal to Windsurf once frontier models were available and adoption peaked. A tiger team I formed ran support, education on indexing and fine-tuning, and escalation with Dell-wide leads.</li>
+      <li><strong>Tracked where the constraint moved.</strong> Velocity rose from 8-point stories being the sprint ceiling to 8 and 13 point stories completing, and the bottleneck then shifted to automation, then quality assurance, then product ownership as requirements became the limit.</li>
+      <li><strong>Defined the processes agentic delivery needs.</strong> Anticipated the challenges agentic workflows create, ran office hour sessions to move teams through them, and defined the new processes for teams the organisation resized into 2 to 3 engineer pods alongside agents: definitions of ready and done, which ceremonies earn their place, velocity at pod, cluster and product level, and the skill plan that turns component specialists into cross-functional pods.</li>
+    </ul>
+    <div class="group">Knowledge bundles for agentic AI</div>
+    <ul>
+      <li><strong>Added the knowledge-quality layer above the AI harness.</strong> The harness and documentation extraction were another team's work; I led the layer above them: knowledge bundles that assess the quality of extracted knowledge and act as a digital model of the product, catching agentic failure in the knowledge rather than in production.</li>
+      <li><strong>Turned the bundles into four uses.</strong> A wiki for new joiners, reverse traceability from bundle to extracted documentation to code, scenario checks such as how the system behaves when request volume doubles from 100 to 200, and causal analysis behind grounded answers that return no information when the evidence is absent.</li>
+    </ul>
+    <div class="group">Leadership and scale</div>
+    <ul>
+      <li><strong>Built the organization.</strong> Grew the India function from 2 to 100 through hiring, with global reporting and one-team culture; hired and coached user experience, control path and security talent; held top-decile engagement scores, with attrition of 2 percent against a 7 percent organization average.</li>
+      <li><strong>Changed how the company delivers.</strong> Led Dell's Agile transformation three times: waterfall to Scrum, Scrum at Scale, then across the Infrastructure Solutions Group. Certified 100 percent of employees and leaders and ran portfolio-level executive Scrum events. Earned the Senior Vice President's Game Changer award. Velocity increased 2 to 5 times and say and do predictability improved from 50 to 85 percent.</li>
+    </ul>
+
+    <h3>Engineering Manager, Hewlett Packard Enterprise, Mar 2011 to Dec 2016</h3>
+    <p><em>Managed three teams building management software for the HPE high-availability clustering product for business-critical applications, and coordinated a 25-engineer project team on clustering and disaster recovery for HP-UX. Supervised the architecture of a multi-cluster manager, which cut customers' operating cost by 20 percent, and gave technical oversight to the HP OneView Network module.</em></p>
+
+    <h3>Earlier Career, 1996 to 2011</h3>
+    <p>Wipro, Amber Networks, Siemens, Tasman Networks, Motorola, and Nortel and Avaya: network management software and GSM features, a version-1 router element manager at Tasman (9 months, including hiring a new Bangalore team), and EMEA customer support engineering for a rebranded access router.</p>
+  </section>
+
+  <section>
+    <h2>Research, Patents and Writing</h2>
+    <ul>
+      <li><strong>Research.</strong> Multi-agent systems knowledge and agent-to-agent communication architectures, with the PhD research proposal published at knowledgesidekick.org.</li>
+      <li><strong>Patents.</strong> Three granted: US 20220337596 and US 20240244058 on adaptive-trust authentication and authorization, and US 20240354154 on adaptive job scheduling. One published: US 20260203081 A1 on design-system-aware interface validation.</li>
+      <li><strong>Writing.</strong> Authoring "Mastering TypeScript" for BPB Publications, and articles on agentic AI for Open Source For You.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>AI Technical Stack</h2>
+    <div class="tl-row"><span class="tl-co">Coding assistants and agents</span> &middot; GitHub Copilot, Codeium on-premise, Windsurf, Claude Code, Hermes Agent, LangGraph</div>
+    <div class="tl-row"><span class="tl-co">Models and frameworks</span> &middot; Ollama, LiteLLM, DeepSeek API, Vertex AI, Hugging Face, PyTorch, TensorFlow, Python</div>
+    <div class="tl-row"><span class="tl-co">Knowledge and grounding</span> &middot; Google Open Knowledge Format, RDF/OWL, SPARQL, JSON-LD, schema.org, typed schemas in Pydantic, Prolog, Lisp</div>
+    <div class="tl-row"><span class="tl-co">Data and observability</span> &middot; PostgreSQL with pgvector, SQLAlchemy, Alembic, OpenTelemetry, Arize Phoenix</div>
+    <div class="tl-row"><span class="tl-co">Cloud and web</span> &middot; Google Cloud, AWS, Azure, TypeScript, Node.js, Angular</div>
+  </section>
+
+  <section>
+    <h2>Education, Credentials and Community</h2>
+    <ul>
+      <li><strong>PhD in Artificial Intelligence</strong>, REVA University, part-time, expected June 2028</li>
+      <li><strong>Master of Technology in Data Science and Artificial Intelligence</strong>, BITS Pilani, 2024, project on sustainability through small generative models</li>
+      <li><strong>Bachelor of Engineering in Computer Science</strong>, Vijayanagar Engineering College; <strong>Master of Business Administration in Marketing</strong>, Indira Gandhi National Open University</li>
+    </ul>
+    <div class="group">Certifications and community</div>
+    <p>Project Management Professional, Certified Scrum Master, SAFe Agilist, Six Sigma Green Belt. Dell LEAD program, top 2 percent of leaders. Founder of technology communities with 22 thousand members and more than 100 events in 11 years. Academic Council, Madanapalle Institute of Technology and Science; Board of Studies, Kishkindha University.</p>
+  </section>
+</main>
+</body>
+</html>
