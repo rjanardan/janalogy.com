@@ -8,7 +8,7 @@ Portfolio: https://janalogy.com
 
 PROFESSIONAL SUMMARY
 
-Engineering director with 25+ years delivering enterprise storage, data protection and infrastructure management software. As head of India management software engineering, grew the team from 2 to 100 engineers across geographies. Shipped four version-1 enterprise products across two multinationals and two startups. Led about 600 engineers into AI-native delivery with a 3x productivity gain. Brings appliance and Kubernetes depth, cloud lifecycle experience, and five straight years of top-decile team engagement.
+Engineering director with 30 years in enterprise software: 15 in networking, data and telecom, 5 in server high availability, and 10 in storage and data protection. Grew the India function from 2 to 100 through hiring, and led 5 leaders and up to 60 engineers across 3 sites with global reporting. Shipped three version-1 enterprise products. As an additional responsibility, about 30 percent of the role, led Agile and AI transformation across a 600-engineer, multi-geography business unit for about 7 years, by influence rather than line authority. Brings appliance and Kubernetes depth, cloud lifecycle experience, and consistently top-decile team engagement.
 
 Open to: Director, Senior Director and Head of Engineering roles in storage, data protection, infrastructure software and global capability centers.
 
@@ -27,15 +27,15 @@ CORE STRENGTHS
 PROFESSIONAL EXPERIENCE
 
 Director of Engineering, Dell Technologies | August 2021 to September 2026 | Bengaluru, India
-- Led a 5-person leadership bench of managers, architects and senior technical leads, with up to 60 engineers across 3 sites, and built the wider India management software organization to 100 through hiring; owned management and supportability software for PowerProtect DD and for a distributed Kubernetes-based data protection product serving 5 customers.
-- As head of India management software engineering, grew the team from 2 to 100 with global reporting and one-team culture; hired and coached user experience, control path and security talent; held top-decile engagement for 5 consecutive years with attrition of 2% against a 7% organization average.
-- Moved about 600 engineers from AI-assisted coding to agentic workflows using spec-driven development and an AI harness: 3x productivity and 30% higher engagement. Worked with IT to fine-tune integrated development environment and on-premises code models to a million-line codebase, and measured code-generation effectiveness per team.
-- Used AI to bring graphical interface delivery for a Kubernetes data protection product in 6 months early, enabling early customer demonstrations and earlier product decisions, and helped reprioritize before Beta.
-- Led Dell's Agile transformation three times (waterfall to Scrum, Scrum at Scale, then across the Infrastructure Solutions Group); certified 100% of employees and leaders and ran portfolio-level executive Scrum events. Earned the Senior Vice President's Game Changer award. Velocity increased 2x to 5x and say/do predictability improved from 50% to 85%.
+- Line responsibility: 5 leaders (senior managers, architects, product owners) and up to 60 engineers across 3 sites with global reporting; owned management and supportability software for PowerProtect DD and for a distributed Kubernetes-based data protection product with 5 early-preview customers. Additional responsibility, about 30 percent of the role: led Agile and AI transformation across a 600-engineer, multi-geography business unit for about 7 years, 540 of them by influence rather than line authority.
+- Grew the India function from 2 to 100 through hiring, with global reporting and one-team culture; hired and coached user experience, control path and security talent; held top-decile engagement scores, with attrition of 2% against a 7% organization average.
+- Used AI to bring graphical interface delivery for a Kubernetes data protection product forward by 6 months; the early build went to Technical Marketing for previews with 5 customers, whose feedback reprioritized work before Beta and enabled customer demonstrations ahead of plan.
+- Moved engineers across the 600-engineer business unit from AI-assisted coding to agentic workflows using spec-driven development and an AI harness: 3x productivity and 30% higher engagement. Worked with IT to fine-tune integrated development environment and on-premise code models to a million-line codebase, and measured code-generation effectiveness per team.
+- Led Dell's Agile transformation three times: waterfall to Scrum, Scrum at Scale, then across the Infrastructure Solutions Group. Certified 100% of employees and leaders and ran portfolio-level executive Scrum events. Earned the Senior Vice President's Game Changer award. Velocity increased 2x to 5x and say/do predictability improved from 50% to 85%.
 
-Senior Manager, Software Engineering, Dell Technologies | December 2016 to July 2021 | Bengaluru, India
+Senior Manager, Dell Technologies | December 2016 to July 2021 | Bengaluru, India
 - Delivered supportability and serviceability for the PowerProtect DD backup and recovery appliance across serviceability, security, REST APIs, graphical interface and observability, reducing support cases by 50% and mean time to resolve by 80%.
-- Led API-based lifecycle management for Data Domain Virtual Edition in AWS, Azure and Google Cloud, enabling $80M revenue and 25 cloud deployments.
+- Led API-based lifecycle management for Data Domain Virtual Edition in AWS, Azure and Google Cloud, reaching 25 cloud deployments.
 - Led integration with CloudIQ, a Dell software as a service monitoring application, for AI-driven insight, observability and continuous upgrades, covering 40% of systems in the field.
 - Moved the Data Protection web stack from Google Web Toolkit to Angular, shortening the interface release cycle by 30% and reducing interface defects by 50%.
 
@@ -47,10 +47,10 @@ Engineering Manager, Hewlett Packard Enterprise | March 2011 to December 2016 | 
 - Transformed three teams into a high-performing group with higher employee engagement.
 
 Customer Experience and Sustenance, Nortel | November 2007 to February 2011 | Bengaluru, India
-- Customer experience and sustenance for the EMEA region on a secure-router product; Nortel was acquired by Avaya.
+- Led EMEA customer support engineering for an access router repurposed and rebranded as a secure router; Nortel was acquired by Avaya.
 
 Engineering Manager, Motorola | August 2005 to November 2007 | Bengaluru, India
-- Led engineering work in networking and telecom product development.
+- Engineering Manager for the Operations Management Center covering GSM networks.
 
 Technical Architect and Manager, Tasman Networks | November 2003 to August 2005 | Bengaluru, India
 - Delivered a version-1 router element manager in 9 months, including hiring a new Bangalore team; Tasman Networks was acquired by Nortel.
@@ -59,7 +59,7 @@ Technical Leader, Siemens Technology India | 2001 to 2003 | Bengaluru, India
 - Technical leader for GSM 2.5G features including location update and lawful interception.
 
 Software Engineer, Amber Networks | August 2000 to August 2001 | Bengaluru, India
-- Software engineer on version-1 edge-router management software; Amber Networks was acquired by Nokia.
+- Software engineer on edge-router management software; Amber Networks was acquired by Nokia.
 
 Software Engineer, Wipro | November 1996 to February 2000 | Bengaluru, India
 - Software engineer on network management software.
