@@ -1,0 +1,198 @@
+<!doctype html>
+<!--
+  EDITING GUIDE
+  1. Style block is byte-identical to janardan-profile.html. Do not add classes or CSS; the only extra rule is the
+     labelled print-fit delta at the end of the head, which lets sections flow across the page break.
+  2. Balance rule: this page is an engineering director page first, with AI adoption as the differentiator.
+     Keep roughly 70 percent engineering and leadership content to 30 percent AI content; the AI group is
+     intentionally three bullets, not six.
+  3. Facts are shared with janardan-profile-engineering.html and janardan-profile-ai.html. If a fact changes, change
+     it in all three; nothing here should contradict either sibling.
+  4. Print: Chrome > Print > Destination "Save as PDF" > Paper A4 > Margins "Default". Target is exactly 2 pages.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Janardan Revuru, engineering director in enterprise storage, data protection and infrastructure software, with AI adoption at 600-engineer scale.">
+  <title>Janardan Revuru: Engineering Director | Enterprise Infrastructure and Data Protection | AI Adoption</title>
+  <style>
+      :root {
+        color-scheme: light;
+        --ink: #172234;
+        --muted: #4d5a6b;
+        --accent: #183b63;
+        --rule: #cbd4df;
+        --paper: #fff;
+        --canvas: #eef2f6;
+      }
+      * { box-sizing: border-box; }
+      html { background: var(--canvas); }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--canvas);
+        font: 11pt/1.5 Arial, Helvetica, sans-serif;
+      }
+      main {
+        width: min(900px, 100% - 32px);
+        margin: 24px auto;
+        padding: 42px 54px;
+        background: var(--paper);
+      }
+      h1 { margin: 0 0 5px; font-size: 25pt; line-height: 1.15; }
+      .headline { margin: 0 0 12px; color: var(--accent); font-size: 12.5pt; font-weight: 700; }
+      .contact { margin: 0; font-size: 10.5pt; line-height: 1.7; overflow-wrap: anywhere; }
+      .contact a { color: inherit; text-decoration: none; }
+      section { margin-top: 22px; }
+      h2 {
+        margin: 0 0 9px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid var(--rule);
+        color: var(--accent);
+        font-size: 13pt;
+        line-height: 1.25;
+      }
+      h3 { margin: 13px 0 3px; font-size: 11pt; line-height: 1.35; }
+      p { margin: 0 0 7px; }
+      ul { margin: 5px 0 10px; padding-left: 21px; }
+      li { margin: 4px 0; padding-left: 1px; }
+      .group { font-weight: 700; margin: 12px 0 3px; color: var(--ink); }
+      .url { overflow-wrap: anywhere; }
+      a { color: var(--accent); }
+      .tl-row { margin: 3px 0; }
+      .tl-co { font-weight: 700; }
+      @media (max-width: 640px) {
+        main { width: 100%; margin: 0; padding: 28px 22px; }
+      }
+      @page { size: A4; margin: 12mm; }
+      @media print {
+        html, body { width: auto; background: #fff; }
+        body { color: #111; font-size: 9.2pt; line-height: 1.32; }
+        main { width: auto; max-width: none; margin: 0; padding: 0; }
+        h1 { font-size: 20pt; }
+        .headline { font-size: 10.5pt; }
+        .contact { font-size: 9pt; }
+        section { margin-top: 10px; }
+        h2 { margin-bottom: 4px; font-size: 11pt; break-after: avoid; page-break-after: avoid; }
+        section { break-inside: avoid; page-break-inside: avoid; }
+        h3 { margin-top: 6px; font-size: 9.5pt; break-after: avoid; page-break-after: avoid; }
+        p, li { orphans: 3; widows: 3; }
+        ul { margin: 2px 0 5px; padding-left: 18px; }
+        li { margin: 1px 0; }
+        .group { margin: 7px 0 2px; }
+        .tl-row { margin: 1px 0; }
+        a { color: #111; text-decoration: none; }
+        .skills { margin-top: 10px; }
+        .skills p { margin-bottom: 2px; }
+      }
+    </style>
+  <style>
+    /* Print-fit delta for this page only: sections flow across the break, rows and items stay intact. */
+    @media print {
+      section { break-inside: auto; page-break-inside: auto; }
+      .tl-row, li { break-inside: avoid; page-break-inside: avoid; }
+      h3 { break-after: avoid; page-break-after: avoid; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Janardan Revuru</h1>
+  <p class="headline">Engineering Director &middot; Enterprise Infrastructure and Data Protection Software &middot; AI Adoption at Scale</p>
+  <p class="contact">
+    Bengaluru, India &nbsp; +91 8050780608 &nbsp; janardan.revuru@gmail.com<br>
+    LinkedIn: linkedin.com/in/rjanardan &nbsp; Portfolio: https://janalogy.com
+  </p>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>Engineering director with 30 years in enterprise software: 15 in networking, data and telecom, 5 in server high availability, and 10 in storage and data protection. Grew the India engineering function from 2 to 100 through hiring, and led 5 leaders and up to 60 engineers across 3 sites with global reporting, shipping management and supportability software for data protection appliances and a distributed Kubernetes-based product. Shipped three version-1 enterprise products, and cut support cases by 50% while bringing mean time to resolve down by 80%. As the business unit's AI and Agile champion, led adoption across about 600 engineers for 3x productivity and 30% higher engagement, including the knowledge bundle layer that keeps agentic answers grounded. Open to Director, Senior Director and Head of Engineering roles in enterprise software, and to engineering leadership at global capability centres building with AI.</p>
+  </section>
+
+  <section>
+    <h2>Selected Outcomes</h2>
+    <div class="tl-row"><span class="tl-co">2 to 100 engineers</span> &middot; India function built through hiring, 2% attrition against a 7% average</div>
+    <div class="tl-row"><span class="tl-co">80% faster time to resolve</span> &middot; support cases down 50% on a data protection appliance</div>
+    <div class="tl-row"><span class="tl-co">25 cloud deployments</span> &middot; Data Domain Virtual Edition lifecycle on three cloud providers</div>
+    <div class="tl-row"><span class="tl-co">3 version-1 products</span> &middot; shipped at Dell, HPE and Tasman Networks</div>
+    <div class="tl-row"><span class="tl-co">600 engineers</span> &middot; AI adoption led as champion, 3x productivity and 30% higher engagement</div>
+    <div class="tl-row"><span class="tl-co">4 downstream uses</span> &middot; knowledge bundles: new-joiner wiki, reverse traceability, scenario checks, grounded answers</div>
+  </section>
+
+  <section>
+    <h2>Core Strengths</h2>
+    <ul>
+      <li>Organization building and talent: 2 to 100 engineers across 3 sites with global reporting</li>
+      <li>Storage, backup and recovery appliances: supportability, serviceability and observability</li>
+      <li>Management plane software: REST APIs, OpenAPI, Redfish and SMI-S</li>
+      <li>Distributed, Kubernetes-based enterprise products</li>
+      <li>Cloud lifecycle: AWS, Azure and Google Cloud</li>
+      <li>Roadmap, release and customer escalation ownership</li>
+      <li>Scaled Agile and delivery discipline, with metrics defined and adapted</li>
+      <li>AI adoption at scale, with usage instrumentation and effectiveness analysis</li>
+      <li>Knowledge bundles and knowledge quality assessment for agentic AI</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <h3>Director of Engineering, Dell Technologies, Aug 2021 to Sep 2026</h3>
+    <div class="tl-row"><span class="tl-co">Previously</span> &middot; Senior Manager, Dell Technologies, Dec 2016 to Jul 2021</div>
+    <p><em>Line responsibility: 5 leaders (senior managers, architects, product owners) and up to 60 engineers across 3 sites with global reporting; owned management and supportability software for PowerProtect DD and for a distributed Kubernetes-based data protection product with 5 early-preview customers. Additional responsibility, about 30% of the role: AI and Agile adoption across a 600-engineer, multi-geography business unit for about 7 years, 540 of them by influence rather than line authority, working with product management, design, support and engineering leaders.</em></p>
+
+    <div class="group">Engineering delivery</div>
+    <ul>
+      <li><strong>Cut support cost and time to resolve.</strong> Delivered supportability and serviceability for the PowerProtect DD backup and recovery appliance across serviceability, security, REST APIs, graphical interface and observability, reducing support cases by 50% and mean time to resolve by 80%.</li>
+      <li><strong>Opened cloud as a delivery channel.</strong> Led API-based lifecycle management for Data Domain Virtual Edition in AWS, Azure and Google Cloud, reaching 25 deployments across three providers.</li>
+      <li><strong>Connected products to field intelligence.</strong> Led integration with CloudIQ, a Dell software as a service monitoring application, for observability, AI-driven insight and continuous upgrades, covering 40% of systems in the field.</li>
+      <li><strong>Modernized the stack.</strong> Moved the Data Protection web stack from Google Web Toolkit to Angular, shortening the interface release cycle by 30% and reducing interface defects by 50%.</li>
+    </ul>
+    <div class="group">AI adoption and knowledge bundles</div>
+    <ul>
+      <li><strong>Led AI adoption across about 600 engineers.</strong> Installation to 100 percent, weekly and daily use tracked, metrics redefined for an AI-assisted software development life cycle, and teams with low confidence in AI brought in.</li>
+      <li><strong>Carried the tooling through three switches in eighteen months</strong> (GitHub Copilot, Codeium on-premise, then Windsurf), and re-pointed eight years of Scrum@Scale measures at AI; the ceiling moved from 8-point stories to 8 and 13 point stories completing.</li>
+      <li><strong>Added the knowledge bundle layer above the AI harness,</strong> so knowledge quality is assessed as a digital model of the product: new-joiner wiki, reverse traceability to code, scenario checks and grounded answers.</li>
+    </ul>
+    <div class="group">Leadership and scale</div>
+    <ul>
+      <li><strong>Built the organization.</strong> Grew the India function from 2 to 100 through hiring, with global reporting and one-team culture; hired and coached user experience, control path and security talent; held top-decile engagement scores, with attrition of 2% against a 7% organization average.</li>
+      <li><strong>Changed how the company delivers.</strong> Led Dell's Agile transformation three times: waterfall to Scrum, Scrum at Scale, then across the Infrastructure Solutions Group. Certified 100% of employees and leaders and ran portfolio-level executive Scrum events. Earned the Senior Vice President's Game Changer award. Velocity increased 2 to 5 times and say and do predictability improved from 50% to 85%.</li>
+    </ul>
+
+    <h3>Engineering Manager, Hewlett Packard Enterprise, Mar 2011 to Dec 2016</h3>
+    <p><em>Managed three teams building management software for the HPE high-availability clustering product for business-critical applications, and coordinated a 25-engineer project team on clustering and disaster recovery for HP-UX.</em></p>
+    <ul>
+      <li><strong>Lowered customers' operating cost.</strong> Supervised the architecture and implementation of a multi-cluster manager on a modern technology stack, which reduced customers' overall operational cost by 20%.</li>
+      <li><strong>Protected mission-critical applications.</strong> Gave management oversight to the disaster recovery program, working closely with EMC as storage partner, and delivered a solution for short and long distance clusters, with 3 greenfield deployments.</li>
+      <li><strong>Set direction on a strategic platform.</strong> Gave technical oversight to the HP OneView Network module, part of the strategic HPE composable infrastructure built on a new software stack.</li>
+    </ul>
+
+    <h3>Earlier Career, 1996 to 2011</h3>
+    <p>Wipro, Amber Networks, Siemens, Tasman Networks, Motorola, and Nortel and Avaya: network management software and GSM features, a version-1 router element manager at Tasman (9 months, including hiring a new Bangalore team), and EMEA customer support engineering for a rebranded access router.</p>
+  </section>
+
+  <section>
+    <h2>Technical Capabilities</h2>
+    <div class="tl-row"><span class="tl-co">Storage and data protection</span> &middot; File, block and object storage; backup and recovery; disaster recovery; appliance supportability and serviceability; storage tiers; SMI-S</div>
+    <div class="tl-row"><span class="tl-co">Management plane and interfaces</span> &middot; REST APIs, OpenAPI and Redfish; graphical interfaces; microservices; security; telemetry and observability</div>
+    <div class="tl-row"><span class="tl-co">Platforms</span> &middot; Kubernetes and containerised services; distributed systems; lifecycle operations on AWS, Azure and Google Cloud</div>
+    <div class="tl-row"><span class="tl-co">AI and agentic engineering</span> &middot; Spec-driven development; AI harness and per-team evaluation; model fine-tuning with IT; knowledge bundles and grounding; LangGraph, Hermes Agent, LiteLLM, Ollama, Vertex AI</div>
+    <div class="tl-row"><span class="tl-co">Data</span> &middot; PostgreSQL with pgvector, SQLAlchemy, Alembic</div>
+    <div class="tl-row"><span class="tl-co">Research areas, PhD in progress</span> &middot; Multi-agent systems knowledge; agent-to-agent communication; knowledge representation and grounding</div>
+  </section>
+
+  <section>
+    <h2>Education, Credentials and Community</h2>
+    <ul>
+      <li><strong>PhD in Artificial Intelligence</strong>, REVA University, part-time, expected June 2028</li>
+      <li><strong>Master of Technology in Data Science and Artificial Intelligence</strong>, BITS Pilani, 2024, project on sustainability through small generative models</li>
+      <li><strong>Bachelor of Engineering in Computer Science</strong>, Vijayanagar Engineering College; <strong>Master of Business Administration in Marketing</strong>, Indira Gandhi National Open University</li>
+    </ul>
+    <div class="group">Certifications, patents and community</div>
+    <p>Project Management Professional, Certified Scrum Master, SAFe Agilist, Six Sigma Green Belt. Three granted patents and one published, on adaptive-trust authentication and authorization, adaptive job scheduling, and design-system-aware interface validation. Dell LEAD program, top 2 percent of leaders. Founder of technology communities with 22 thousand members and more than 100 events in 11 years. Academic Council, Madanapalle Institute of Technology and Science; Board of Studies, Kishkindha University.</p>
+  </section>
+</main>
+</body>
+</html>
