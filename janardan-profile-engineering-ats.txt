@@ -43,7 +43,7 @@ Engineering Manager, Hewlett Packard Enterprise | March 2011 to December 2016 | 
 - Managed three teams building management software for the HPE high-availability clustering product for business-critical applications, and coordinated a 25-engineer project team on clustering and disaster recovery for HP-UX.
 - Supervised the architecture and implementation of a multi-cluster manager on a modern technology stack, which reduced customers' overall operational cost by 20%.
 - Gave management oversight to the disaster recovery program, working closely with EMC as storage partner, and delivered a disaster recovery solution for short and long distance clusters, with 3 greenfield deployments.
-- Gave technical oversight to HP OneView, a strategic HPE product built on a new software stack.
+- Gave technical oversight to the HP OneView Network module, part of the strategic HPE composable infrastructure built on a new software stack.
 - Transformed three teams into a high-performing group with higher employee engagement.
 
 Customer Experience and Sustenance, Nortel | November 2007 to February 2011 | Bengaluru, India
