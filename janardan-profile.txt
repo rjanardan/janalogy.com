@@ -1,77 +1,86 @@
 Janardan Revuru
-Engineering Leader · Enterprise Infrastructure and Storage · Teams Built 2 to 100 · AI Engineering Transformation
-Bengaluru, India 560100 +91 8050780608 janardan.revuru@gmail.com
+Director of Engineering · Enterprise Infrastructure, Storage, Data · Scaling global teams · Engineering Transformation to AI-Native · Hands-on leader, architecture to production support
+Bengaluru, Karnataka, India 560100 +91 8050780608 janardan.revuru@gmail.com
 LinkedIn: linkedin.com/in/rjanardan Portfolio: https://janalogy.com Research: knowledgesidekick.org
 
 PROFESSIONAL SUMMARY AND EXPERIENCE
 
-Seeking: Engineering leadership roles at AI-first startups and AI platform companies serving enterprises
-Agentic AI and AI-native delivery
-- Prototyping and building agentic AI systems: multi-agent coordination, tool use, and agent-to-agent communication architectures (PhD research proposal, REVA University)
-- Leading adoption of agentic AI: moved about 600 engineers from AI-assisted coding to agentic-AI workflows using spec-driven development and an AI harness; 3x productivity, +30% engagement (Dell Technologies)
-- Worked with IT to fine-tune IDE and on-prem code models to a million-line codebase and evaluated per-team code-generation effectiveness (Dell Technologies)
-- Built on the org's AI harness and LLM architecture documentation to create knowledge bundles for grounded, non-hallucinating answers (Dell Technologies)
-Engineering leadership and org building
-- Built engineering teams from the ground up, 2 to 100 engineers, with global reporting and one-team culture across geographies (Dell Technologies, Dell EMC)
-- Manage managers, senior tech leads, and architects; hire and coach niche hardware, file-system, and security talent (Dell Technologies)
-- Graduated from the LEAD program, top 2% of Dell Technologies leaders (Dell Technologies)
-- Top-decile team engagement scores for 5 consecutive years (Dell Technologies)
+An engineering leader who builds and runs enterprise software end to end, from architecture to production support, across servers, storage, networking, and data platforms. Hands-on by habit: I design and build alongside my teams, and stay in the code to set the bar. I have scaled engineering orgs from 2 to 100 engineers across geographies, led two enterprise Agile transformations, and navigated the AI transformation, from AI-Agents to Agentic AI, in a 600-engineer business unit. Collaboration and influencing outside my direct reports is a core strength. I bring product depth (three V1.0 products, three granted patents) and the judgment to make hard trade-offs in distributed systems, reliability, and platform engineering, from 5-node data-protection clusters and HA/DR server clusters to cloud SaaS telemetry at scale. Deep fluency across programming paradigms and niche languages. The rubric I use to choose tools is not the same for a human team as for an AI-native pod. A leader who can think two years ahead of the technology curve, set a vision, and navigate through uncertainty.
+Seeking: Director of Engineering roles in established enterprises and platform companies, building and scaling enterprise software platforms, distributed systems, and data platforms.
 Enterprise product engineering and customer experience
-- Led engineering for management and supportability software across enterprise data-protection appliances and distributed storage systems, covering file, block, and object storage, storage tiers, backup and recovery, appliance serviceability, security, REST APIs, GUI, microservices, and observability (Dell Technologies)
-- At Dell, responsible for system management of a distributed Kubernetes-based data-protection product; used AI to bring GUI delivery in by 6 months, enabling early customer demos and timely product decisions (Dell Technologies)
-- Led the engineering side of UX/UI for four version-1 enterprise products across HPE and Dell: simplifying underlying complexity, one design system across the portfolio, and API-first compliance (OpenAPI, Redfish); co-inventor on 3 granted UX patents (HPE, Dell Technologies)
-- Led engineering for the Data Domain Virtual Edition API based life cycle management in AWS, Azure, and Google Cloud (Dell EMC)
-- Led engineering work in integration with CloudIQ, a Dell SaaS monitoring application for enterprise products, covering AI-driven intelligence, observability, and continuous upgrades (Dell EMC)
-- Modernized the web technology stack from GWT to Angular in the Data Protection domain (Dell Technologies)
-- Delivered appliance supportability and serviceability for the PowerProtect DD backup and recovery appliance (Dell EMC)
-- Customer experience and sustenance for the EMEA region for a secure-router product (Nortel/Avaya)
+- Led manageability control-path engineering that other teams build on: REST API infrastructure, database services, time-series, an Istio gateway, job sequencing and orchestration services, and alert simulation tooling
+- As Manageability Engineering Manager for HPE Serviceguard, owned the GUI, Metrocluster, Extended-Distance-cluster, and Toolkit across HP-UX and Linux. Owned customer experience and operational cost reduction of distributed 5-nines HA/DR clusters spanning sites, including business-continuity configurations
+- At Dell, responsible for system management of a distributed Kubernetes-based data-protection product; used AI to bring GUI delivery in by 6 months, enabling early customer demos and timely product decisions
+- Led engineering for the Data Domain Virtual Edition API based life cycle management in AWS, Azure, and Google Cloud, automated via Ansible playbooks for SAP customers (Infrastructure as Code in practice)
+- Led engineering for management and supportability software across enterprise data-protection appliances and distributed storage systems, covering file, block, and object storage, storage tiers, backup and recovery, appliance serviceability, security, REST APIs, GUI, microservices, and observability
+- Led the engineering side of UX/UI for three version-1 enterprise products across HPE, Dell and Tasman Networks: simplifying underlying complexity, one design system across the portfolio, and API-first compliance (OpenAPI, Redfish); co-inventor on 3 granted UX patents
+- Modernized the web technology stack from GWT to Angular in the Data Protection domain
+- Delivered appliance supportability and serviceability for the PowerProtect DD backup and recovery appliance
+- Worked in the storage layer of the next-generation scale-out Data Domain platform: managing disks, and running performance measurement across all-flash systems
+- Acted as first consumer of internal tooling, validating Angular component reuse across scale-up and scale-out products before general release
+- Managed external vendor engagement for security-consultant delivery, working with Symphony Solutions (acquired by Harman) on security roles at Dell EMC
+- Customer experience and sustenance for the EMEA region for a secure-router product, including customer-satisfaction tracking and SLO monitoring in a customer-experience and sustenance role (Nortel/Avaya)
 - Early career: network management software, GSM 2.5G features (location update, lawful interception), and router element-manager software (Wipro, Amber Networks, Siemens, Tasman Networks, Motorola)
+Engineering leadership and org building
+- Built engineering teams from the ground up to 100 engineers across 3 sites: led a 60-engineer line directly and, as site leader, grew the site to 100, with global reporting and a one-team culture
+- Manage senior managers, architects, and product owners; hire and coach niche hardware, file-system, and security talent
+- Ran communities of practice as Senior Engineering Manager: the Engineering Manager Community of Practice, plus DevOps, tooling, and innovation workshops
+- Graduated from the LEAD program, top 2% of Dell Technologies leaders
+- Top-decile team engagement scores
+Data platform and telemetry engineering
+- Led engineering in CloudIQ (Dell AIOps), a cloud-native SaaS monitoring Dell's infrastructure portfolio: telemetry ingestion, data processing, health scoring, anomaly detection, and analytics, with continuous customer software upgrades; drove the measured-usage link to consumption billing and worked directly with Cassandra in the AIOps data platform
+- Owned the soundness of the monitoring data lifecycle from collect to serve, built on verified production cadence: performance sampled every 5 minutes, end-to-end call tracing at 1-second unsampled intervals, 2-year retention, and a security posture that ingests only system metadata over encrypted secure remote-connectivity, with no workload payloads or consumer PII
+- Built and deployed machine-learning models into production data-protection appliances: capacity projection using AutoML, and ML-driven support-cost reduction (target) of 50%
+- Led the next-generation scale-out product, incorporating OpenTelemetry-based observability across the platform for telemetry, tracing, and monitoring
 Agile transformation and delivery discipline
-- Led Dell's Agile transformation three times: waterfall to Agile Scrum (VersionOne, SAFe), then Scaled Scrum with Scrum@Scale, and then across the Infrastructure Solutions Group; wrote the tutorial decks, certified 100% of employees and leaders in Scrum, and ran portfolio-level executive Scrum events (Dell Technologies)
-- Recognized with the Senior Vice President's Game Changer award for the transformation work (Dell Technologies)
-- Leading transformations in delivery methodology and AI-native ways of working (Dell Technologies, HPE, Motorola)
+- Led Dell's Agile transformation twice, an additional responsibility over about 7 years held by influence rather than line authority: waterfall to Agile Scrum (VersionOne, SAFe), then Scaled Scrum with Scrum@Scale; wrote the tutorial decks, certified 100% of employees and leaders in Scrum, and ran portfolio-level executive Scrum events
+- Defined, measured, and improved Agile and AI metrics in transformation programs applied to teams outside my line of reporting, and reviewed transformation metrics and progress to executives monthly
+- Recognized with the Senior Vice President's Game Changer award for the transformation work
+- Leading transformations in delivery methodology and AI-native ways of working
+Agentic AI and AI-native delivery
+- Leading adoption of agentic AI: moved about 600 engineers across a multi-geography business unit, 540 of them outside my line, from AI-assisted coding to agentic-AI workflows using spec-driven development and an AI harness; 3x productivity, +30% engagement
+- Worked with Dell IT to fine-tune on-prem code models to a million-line codebase and evaluated per-team code-generation effectiveness
+- Built on the org's AI harness and LLM architecture documentation to create knowledge layer for grounded, non-hallucinating answers
+- Downstream use cases: Wiki creation and update part of Agentic loop, reverse traceability, scenarios analysis querying the model, optimisation of system test scenarios with 80% cost savings.
+- Knowledge layer for deep context in AI systems: Grounding, trust, security through knowledge layer in Agentic AI systems (PhD research proposal, REVA University)
 
 TECHNICAL CAPABILITIES
 
-Web technologies — HTML/CSS/JS, Angular, TypeScript, Node.js
-Cloud — Google Cloud, Vertex AI, AWS, Azure
-AI ML/DL — Python, PyTorch, TensorFlow, Hugging Face
-Agentic AI frameworks — LangGraph, Hermes Agent, Ollama, LiteLLM, DeepSeek API
-Storage and data protection — File, block, and object storage; NAS, SAN, SDS; storage tiers; backup and recovery; distributed storage; appliance supportability; serviceability; SMI-S
-Enterprise infrastructure management — Server and storage management; REST APIs; GUI; microservices; security; telemetry; observability; customer supportability
-Data and AI systems — PostgreSQL + pgvector, SQLAlchemy, Alembic
-Agentic AI observability — OpenTelemetry, Arize Phoenix
-Research areas — PhD in progress
-Neuro-symbolic AI — Typed schemas (Pydantic), symbolic reasoning and grounding (Prolog, Lisp)
-Knowledge representation and grounding — Google Open Knowledge Format (OKF), RDF/OWL, SPARQL, JSON-LD, schema.org, Google Knowledge Graph
+Systems design and architecture  |  distributed systems; microservices; platform engineering; control-path services; system and infrastructure management; architecture review; trade-off reasoning; 5-nines HA/DR design; REST APIs (OpenAPI, Redfish); GUI; customer supportability
+Observability, reliability, and SRE  |  OpenTelemetry, Arize Phoenix, telemetry, monitoring, SLOs and error budgets, 5-nines HA/DR, incident management, alerting
+AI / Machine Learning / GenAI  |  PyTorch, TensorFlow, Hugging Face, fine-tuning models, model evaluation, AutoML, RAG; evaluated local and online models: Gemma, LFM, Qwen, Ministral, GLM, Claude, ChatGPT, Gemini, DeepSeek, Nemotron
+Agentic AI and AI-native engineering  |  LangGraph, Hermes Agent, Claude Code, Ollama, LiteLLM, DeepSeek API, Model Context Protocol (MCP); spec-driven development, eval-driven tooling, AI harness
+Cloud and platform engineering  |  Google Cloud, Vertex AI, AWS, Azure; Kubernetes, Docker, Istio; Infrastructure as Code (Ansible); continuous integration and continuous delivery; automation-first
+Data platform, databases, and telemetry  |  PostgreSQL + pgvector, Cassandra, SQLAlchemy, Alembic; time-series; data pipelines; telemetry data lifecycle
+Enterprise storage and data protection  |  file, block, and object storage; NAS, SAN, SDS; storage tiers; backup and recovery; distributed storage; appliance supportability; serviceability; SMI-S
+Languages and web  |  TypeScript, JavaScript, Node.js, Go, Java, J2EE, Spring Boot, Express, Python, HTML/CSS, Angular
+Security and compliance  |  security, zero-trust, adaptive-trust authentication (patented), API security, governance; secure remote-connectivity
+Delivery  |  scaled Agile (Scrum, Scrum@Scale, SAFe), DevOps, SDLC, automation-first, transformation metrics
+Research areas  |  PhD in progress:
+  - Neuro-symbolic AI · typed schemas (Pydantic), symbolic reasoning and grounding (Prolog, Lisp)
+  - Knowledge representation and grounding · Google Open Knowledge Format (OKF), RDF/OWL, SPARQL, JSON-LD, schema.org, Google Knowledge Graph; Retrieval-Augmented Generation (RAG)
 
 CAREER HISTORY
 
-Dell Technologies — Director of Engineering Aug 2021 – Present
-Dell Technologies — Senior Manager Dec 2016 – Jul 2021
-Hewlett Packard Enterprise — Engineering Manager Mar 2011 – Dec 2016
-Nortel (acquired by Avaya) — Customer Experience and Sustenance Nov 2007 – Feb 2011
-Motorola — Engineering Manager Aug 2005 – Nov 2007
-Tasman Networks (acquired by Nortel) — Technical Architect / Manager Nov 2003 – Aug 2005
-Siemens Technology India — Technical Leader 2001 – 2003
-Amber Networks (acquired by Nokia) — Software Engineer Aug 2000 – Aug 2001
-Wipro — Software Engineer Nov 1996 – Feb 2000
+Dell Technologies | Director of Engineering | Aug 2021 to Sep 2026
+Dell Technologies | Senior Manager | Dec 2016 to Jul 2021
+Hewlett Packard Enterprise | Engineering Manager | Mar 2011 to Dec 2016
+Nortel (acquired by Avaya) | Customer Experience and Sustenance | Nov 2007 to Feb 2011
+Motorola | Engineering Manager | Aug 2005 to Nov 2007
+Tasman Networks (acquired by Nortel) | Technical Architect / Manager | Nov 2003 to Aug 2005
+Siemens Technology India | Technical Leader | 2001 to 2003
+Amber Networks (acquired by Nokia) | Software Engineer | Aug 2000 to Aug 2001
+Wipro | Software Engineer | Nov 1996 to Feb 2000
 
 INDUSTRY AND ACADEMIC ENGAGEMENT
 
 Developed multiple tech communities (meetups) that aggregate to 22K members across India and beyond. Conducted 100+ events over the last 11 years at companies including Google, Microsoft, Navi, Brillio, Dell, HPE, Nutanix, IBM, GeekyAnts, and Roku.
 Academic and research mindset with an M.Tech in Data Science and AI from BITS Pilani; currently pursuing a part-time PhD in AI (agent to agent communication architectures). Official mentor to employees pursuing M.Tech from BITS Pilani. Authoring the book "Mastering TypeScript" for BPB publications. Editor and maintainer of knowledgesidekick.org, an open research site on knowledge-first practice for Agentic AI, with agent-generated content human-reviewed under editorial rules I set. My PhD research proposal is published there.
 
-SKILLS
-
-Engineering leadership: Team seeding and scaling; AI-native delivery
-Enterprise infrastructure: Server, storage, and networking; scaled Agile and architecture review; community and talent attraction
-
 EDUCATION
 
 PhD in Artificial Intelligence, REVA University
-Expected in June 2028 (part-time, working professional). Research in the field of multi-agent systems knowledge and communication architectures.
-Research proposal: knowledgesidekick.org/phd/submission-1.html
+Expected in June 2028 (part-time, working professional). Research in the field of multi-agent systems knowledge and communication architectures. Research proposal: knowledgesidekick.org/phd/submission-1.html
 Master of Technology in Data Science, Birla Institute of Technology and Science, Pilani
 June 2024. Project: Sustainability through Small Generative Models.
 Bachelor of Engineering in Computer Science, Vijayanagar Engineering College
@@ -84,8 +93,6 @@ CERTIFICATIONS AND AWARDS
 - SAFe Agilist
 - Six Sigma Green Belt
 - Certified Financial Manager
-- Game Changer award for Agile Transformation
-- Top-decile team engagement scores for 5 consecutive years
 
 COMMUNITY ENGAGEMENT
 
@@ -103,12 +110,10 @@ AFFILIATIONS AND ADVISORY ROLES
 - Open Source India conference (since 2011)
 - Technical Director, Huawei HarmonyOS Platform (till 2021)
 - Web Technologies Advisory Group, Microsoft (till 2018)
+
 PATENTS (WITH CO-INVENTORS)
+
 - Systems and Methods for Temporary Access with Adaptive Trust Levels for Authentication and Authorization, US 20220337596, issued October 20, 2022.
 - Parameter-Based Adaptive Scheduling of Jobs, US 20240354154, issued October 24, 2024.
 - Systems and Methods for Temporary Access with Adaptive Trust Levels for Authentication and Authorization, Extension, US 20240244058, issued April 8, 2025.
 - Suggesting and Validating User Interface Elements in Accordance with a Design System, US 20260203081 A1, published July 16, 2026.
-
-CLOSING
-
-For more than 20 years I have built and scaled engineering teams from the ground up, growing an infrastructure management software org from 2 to 100 engineers and leading the shift to agentic-AI workflows across about 600, tripling productivity. Seeding teams that deliver and lead with AI-native engineering and a culture of experimentation. I bring that blend to both: an execution leader with a researcher's mindset, still hands-on in my PhD work on multi-agent systems.
